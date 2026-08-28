@@ -1,0 +1,180 @@
+PROJECT HANDOFF – SRESHTA LOGISTICS + SRESHTA FOODS
+==================================================
+Date: 16 Aug 2026
+
+ATTACH THIS FILE + THE FULL plain.txt (complete source dump) TO THE NEW CHAT.
+
+==================================================
+1. WHAT THIS PROJECT IS
+==================================================
+One Next.js 14 (App Router + TypeScript + Tailwind + Firebase) platform with two modules:
+
+A. Sreshta Logistics  – full operational logistics system (Xpression-style)
+B. Sreshta Foods      – e-commerce (pickles, snacks, weight variants) + Cashfree payments
+
+Public site has a Swiggy-style dual-tab switcher (Logistics ↔ Food).
+Admin is under /admin with role-based access (Super Admin, Co-loaders, etc.).
+
+Reference sites the client wants to match:
+- Public logistics look & feel → https://giantwings.in/
+- Admin operational UX → https://xpresion.sssxpress.in/  (especially the AWB Entry / Booking page)
+
+Sample documents the client provided (must match exactly):
+- AWB Label: AWB_6003358371AWB.pdf
+- Proforma Invoice: Performa_6003358371.pdf
+
+Key real data from samples:
+- AWB: 6003358371
+- Account / Co-loader code: WH439 / WF439 style
+- Shipper: MUPPALLA BUCHI RAMARAO, Flat No.101, Yaganti Buds, Brodipet, Guntur, AP 522004
+- Consignee: TEJA, 970 Westmeade Drive, Chesterfield, Missouri 63005, USA
+- Contents: Used Clothes / Kids Wear / Men’s Pant / Ladies Saree / Boosthealth Drink
+- Declared value: 3200 INR
+- CSB4, Export Reason: “UNSOLICITED GIFT - NOT FOR SALE”
+- Pre-carriage: FDX (FedEx)
+- Pieces: 1, Weight 11.000 Kgs, Dims 37*37*24
+- Service: SPX International Priority
+
+==================================================
+2. CURRENT CODEBASE STATUS (from plain.txt)
+==================================================
+The entire project source is already dumped in plain.txt (179 files).
+
+Almost every page, component, type, API route, and lib already exists as a skeleton:
+- All admin routes under /admin/logistics/*, /admin/food/*, /admin/masters/*, etc.
+- Components: AWBBookingForm, PieceDetails, ChargeDetails, GSTDetails, TrackingMatrixTable, XpressionCharts, VariantBuilder, etc.
+- Libs: pdfGenerator.ts, tracking.ts, whatsapp.ts, cashfree.ts, firebase-admin.ts, pricing.ts
+- Types: logistics.ts, tracking.ts, food.ts, invoice.ts, user.ts
+- Utils: calculations.ts (volumetric exists), formatters.ts, validators.ts, constants.ts
+
+HOWEVER the implementations are incomplete / simplified. They do NOT yet match the Xpression screenshots or the sample AWB + Proforma PDFs.
+
+==================================================
+3. CRITICAL GAPS THAT STILL NEED TO BE CLOSED
+==================================================
+
+A. Booking Form (highest priority)
+   Current: multi-step wizard
+   Needed: single-page Xpression card layout exactly like the screenshots:
+   - Account Details (Book Date, Client, Account Code)
+   - Shipper Details (with Origin code, IEC, Document Type/No, GSTIN)
+   - Consignee Details (Destination code, full address, phones)
+   - Services Details (Product, Vendor, Service=SELF, Shipment Value, Pieces, Actual/Vol/Charge Weight, Commercial/ODA checkboxes)
+   - Pieces Details table (Measurement Unit, Actl Weight/PC, No. of Pieces, L, W, H, Division 5000, Vol Weight, Chrg Weight) + Add button + Child AWB table
+   - Performa / Manifest GST Detail (CSB_Type = CSB 4, Term of Invoice dropdown, GST Invoice Yes/No, Invoice No, Invoice Date, Department No, Export Reason dropdown with “UNSOLICITED GIFT - NOT FOR SALE”, Format dropdown)
+   - Line items table: Box No, Packages, Description, HSN Code, Quantity, Weight, Unit, Rate, Amount, IGST%, etc.
+   - Charge Details (Contract Charges, Other Charges, Surcharge, IGST/CGST/SGST, Total)
+   - Bottom Save / Cancel + AWB UserID, POD UserID, Manifest No, Invoice No
+
+B. Missing domain fields (must be added to types + forms + PDFs)
+   - hsCode / HSN Code per line item
+   - shopName + shopAddress per line item (as in sample Proforma)
+   - csbType (CSB4)
+   - exportReason (UNSOLICITED GIFT - NOT FOR SALE, SALE, SAMPLE, GIFT, etc.)
+   - termOfInvoice (CIF, CFR, FOB, EXW, DAP, DDP, etc.)
+   - documentType + documentNo (GSTIN, etc.)
+   - preCarriageBy (FDX, DHL, etc.)
+   - accountCode / hubCode (WH439 / WF439 style) – must appear on every document
+   - volumetric weight calculation already exists in calculations.ts – just wire it properly
+
+C. PDF Generation (must match samples exactly)
+   - No real AWB Label generator yet (needs barcode, POD signature box, piece dims, charged weight, ICL-style layout)
+   - No Proforma Invoice generator yet (needs item table with HS codes + shop details, amount-in-words “INR Three Thousand Two Hundred Only”, CSB4 stamp, dual logo support)
+   - Current src/lib/pdfGenerator.ts is a generic invoice only → must be replaced/extended
+   - PDFs must be generated on-the-fly in memory (no storage of PDFs required)
+   - Logistics invoices use Logistics logo + account code
+   - Food invoices use Food logo + company as auto-sender
+
+D. Dynamic Tracking Stages
+   - Current TRACKING_STATUSES are hard-coded
+   - Super Admin must be able to add / edit / delete / reorder stages
+   - Stages apply to both Logistics AWBs and Food orders
+   - Tracking matrix page must show every AWB in rows with checkboxes for each stage
+   - Checking a box updates the public tracking timeline instantly
+
+E. Fuel Surcharges + Co-loaders
+   - Super Admin only can add/edit/delete fuel surcharge rows (Name e.g. DHL/FedEx + cost)
+   - Co-loaders can only view/apply them
+   - Co-loader management: create logins + assign account codes (like WF439)
+   - Account code must appear on AWB labels and Proformas
+
+F. Other
+   - WhatsApp: prefer side-drawer + Cloud API; fallback to wa.me link is acceptable
+   - Day-End page: three buttons (Warehouse Pending / Delivery Pending / Booking Pending) + date filter + Excel/PDF export
+   - Masters (Senders, Receivers, Customers, Service Centers, Destinations, Vendors, Services) need full CRUD + Excel/PDF export
+   - Dashboard must look like Xpression (Outbound/Inbound pie charts that are clickable filters)
+   - ModuleSwitcher (Logistics ↔ Food) already exists but must drive sidebar + header context
+   - Cashfree already scaffolded for Food – just needs final wiring
+   - numberToWords utility is completely missing
+
+==================================================
+4. FILES THAT NEED REAL WORK
+==================================================
+
+MUST UPDATE (priority order):
+1. src/types/logistics.ts          ← add all missing fields
+2. src/types/invoice.ts
+3. src/types/tracking.ts + src/lib/tracking.ts
+4. src/utils/constants.ts          ← Export Reasons, CSB types, Term of Invoice lists
+5. src/utils/formatters.ts         ← add number-to-words helper
+6. src/components/logistics/AWBBookingForm.tsx   ← rewrite to single-page Xpression layout
+7. src/components/logistics/PieceDetails.tsx
+8. src/components/logistics/GSTDetails.tsx
+9. src/components/logistics/ChargeDetails.tsx
+10. src/components/logistics/ShipperForm.tsx
+11. src/components/logistics/ConsigneeForm.tsx
+12. src/components/logistics/ShipmentDetails.tsx
+13. src/lib/pdfGenerator.ts        ← or replace with proper generators
+14. src/app/admin/logistics/booking/page.tsx
+15. src/app/admin/logistics/awb/[awb]/page.tsx
+16. src/app/admin/logistics/invoices/*
+17. src/components/logistics/TrackingMatrixTable.tsx
+18. src/app/admin/logistics/tracking/matrix/page.tsx
+19. src/app/admin/logistics/fuel-surcharges/page.tsx
+20. src/app/admin/logistics/co-loaders/page.tsx
+21. src/app/admin/dashboard/page.tsx + XpressionCharts.tsx
+22. All masters pages (export buttons)
+23. src/lib/whatsapp.ts + WhatsApp drawer
+
+MUST ADD:
+- src/lib/pdf/awbLabelGenerator.ts
+- src/lib/pdf/proformaInvoiceGenerator.ts
+- src/lib/utils/numberToWords.ts
+- src/components/logistics/InvoiceItemTable.tsx   (HS + shop + qty + rate)
+- src/components/logistics/HsCodeSelect.tsx
+- src/components/admin/WhatsAppSideDrawer.tsx
+- src/app/api/admin/logistics/generate-pdf/route.ts
+- src/app/api/logistics/tracking/stages/route.ts   (CRUD for dynamic stages)
+
+==================================================
+5. IMPLEMENTATION ORDER (recommended)
+==================================================
+Step 1  → Extend types + constants + numberToWords
+Step 2  → Rewrite AWBBookingForm + all child form components to match screenshots
+Step 3  → Build exact AWB Label + Proforma PDF generators (match the two sample PDFs)
+Step 4  → Wire generate-pdf API + booking page “Create & Generate” button
+Step 5  → Dynamic tracking stages + checkbox matrix
+Step 6  → Fuel surcharges + Co-loaders (account code on documents)
+Step 7  → Day-End + Masters polish + Dashboard charts
+Step 8  → WhatsApp side drawer + Food module final polish + Cashfree
+
+==================================================
+6. TECH STACK (already decided)
+==================================================
+- Next.js 14 App Router + TypeScript + Tailwind
+- Firebase Auth + Firestore + Firebase Admin SDK (server-only writes)
+- Cashfree for Food payments
+- WhatsApp Business / Cloud API (or wa.me fallback)
+- pdf-lib (already used) or jspdf for on-the-fly PDFs
+- No PDF storage required – generate in memory every time
+
+==================================================
+7. HOW TO CONTINUE
+==================================================
+1. Attach this handoff text + the full plain.txt
+2. Tell the new Grok: “Continue from Step 1 – extend the types and create numberToWords”
+   or “Start rewriting AWBBookingForm to match the Xpression screenshots”
+3. The new Grok already has the complete picture from this document + plain.txt.
+
+Do not reinvent the architecture. The MDS and all routes/components already exist.
+Only fill the gaps listed above so the system matches the client’s Xpression screenshots and the two sample PDF documents exactly.

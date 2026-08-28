@@ -1,0 +1,2479 @@
+so we had new project to do actually the sector is the logistics company they want the website they shared the reference https://giantwings.in/ crwl the website they need this kinda website they asked for the website just like swiggy aapp the two tabs to route b/w food and instamert they asked for the logistic website and the food website which is just like e - commerece site they actually had the pickles and snacks etc and the track order button where they enter the order id they can track their id and there should be the admin login button and just like flipkart etc if item is seleted they need to select the weight like 1 kg or 1/2 kg 2,3,4 etc what ever the admin enter in the food catag page it should be in frontend and if clicks the admin login i will explaiun the pages etc etc every thing in the backend part these are the requirements from the front side just keep this now we need to consider the backgroud i will sahre that first remember this and get ready foir the backend if ok they
+
+Got it! I have carefully reviewed and noted down all the frontend requirements for your new project.
+
+Summary of Frontend Requirements
+Dual-Tab Navigation (Swiggy-style Toggle):
+
+A top-level tab switcher to easily route between Logistics Services and the Food/E-commerce Store (similar to Swiggy’s Food vs. Instamart toggle).
+
+Logistics Portal (Reference: giantwings.in):
+
+A clean layout inspired by courier/logistics platforms.
+
+Track Order Feature: A prominent search/tracking bar where customers enter their Order ID to view live delivery status.
+
+Food / E-commerce Store (Pickles, Snacks, etc.):
+
+Product catalog showing items like pickles, snacks, and homemade foods.
+
+Variant / Weight Selector (Flipkart-style): When a customer clicks on an item, they can select weight options (e.g., 250g, 500g / ½ kg, 1 kg, 2 kg, 3 kg, 4 kg, etc.).
+
+These weight options and prices will dynamically populate on the frontend based on what the admin configures in the backend.
+
+Header / Global Elements:
+
+Admin Login Button: A visible entry point/link on the frontend leading to the admin login page.
+
+I am completely ready! Please share the backend requirements next whenever you are ready.
+
+yes now in logistics there is portal called the https://xpresion.sssxpress.in/ first go through this and collect all features and list them they asked this exactly for logistics along with the food module with customization i will explain first list them
+
+Based on SSS Xpress (sssxpress.in and their enterprise login portal xpresion.sssxpress.in), here is a comprehensive breakdown of all features and modules extracted from their logistics system:
+
+1. Authentication & Security Portal Features (As seen on xpresion.sssxpress.in)
+Dual Login Options:
+
+Login using Username & Password.
+
+Login using Mobile / Email ID + OTP (OTP delivered via SMS, WhatsApp, or Email).
+
+Device Registration & Security Check:
+
+System detects unrecognized/new devices upon login.
+
+Prompts "Register Device" which sends an approval request to the System Administrator.
+
+Password Management:
+
+Forgot / Reset Password via OTP verification.
+
+Captcha / Security text verification to prevent automated bot logins.
+
+Role-Based Access Control:
+
+Separate roles for Admin, Branch Managers, Staff, Agents, and Corporate Clients.
+
+2. Core Logistics & Tracking Features
+AWB / Docket Order Tracking:
+
+Single & Multi-AWB Search: Ability to track single or multiple order tracking numbers (separated by commas).
+
+Real-time Milestone Timeline: Visual timeline displaying status updates (Booked, In Transit, Arrived at Hub, Out for Delivery, Delivered, Exception/Delay).
+
+Downloadable Tracking Proof / Proof of Delivery (POD): Option to view or download delivery acknowledgment.
+
+Rate & Shipping Cost Calculator:
+
+Quick shipping quote based on Origin Pin Code, Destination Pin Code, Package Type, and Weight.
+
+Volumetric / Weight Calculator Tool:
+
+Calculates actual weight vs. Dimensional/Volumetric Weight (Length×Width×Height/Divisor) so clients know exact billable weight.
+
+Shipment Booking & Pickup Scheduling:
+
+Book a Shipment / Request Doorstep Pickup: Form to enter Sender details, Recipient details, Package dimensions, and preferred pickup date/time.
+
+3. Logistics Service Categories & Modes
+Domestic Courier & Cargo Services: Standard, Express, and Premium Next-Day Delivery options.
+
+International Express Courier: Import/Export handling, Customs compliance fields.
+
+Freight Modes:
+
+Air Freight
+
+Ocean Freight
+
+Road / Surface Transport
+
+Specialized Cargo Handling:
+
+Handling for Perishable Goods (especially relevant for your pickles and food items).
+
+Guidelines & Policies:
+
+Packing Guidelines Page (instructs customers on standard packaging requirements).
+
+Prohibited / Restricted Items List (list of banned or dangerous items).
+
+4. Notifications & Communication Channels
+Multi-Channel Alerts:
+
+Automated updates for order tracking via SMS, WhatsApp, and Email.
+
+Enquiry & Support Portal:
+
+Contact/Inquiry submission form with direct routing to support teams.
+
+Branch finder / Office location finder with contact numbers and addresses.
+
+Summary of How This Fits Your Project
+With this logistics portal combined with your Swiggy-style Food/E-commerce portal, your platform will have:
+
+Tab 1: Logistics & Parcel Delivery Portal (AWB Tracking, Pickup Booking, Rate/Weight Calculator, Air/Surface Options, Enterprise Security).
+
+Tab 2: Food & Pickles E-commerce Store (Multi-weight/variant selection like 250g,500g,1kg,2kg,3kg,4kg, Swiggy/Instamart UX, Add to Cart, Order Tracking).
+
+Please share the backend requirements or customization details whenever you are ready!
+
+I WILL GIVE ALL THE SIDE BAR buttons dashboards and the requirets not every thing dont giver anything untuill and unless i asked for you an detailed description untill respond me as go ahead
+
+Go ahead! I am ready for the details.
+
+the client need the requirement he need the dashboard the super admin in the booking form there need the button at top section add fuel surcharge then if he clicks the box creates in row he need to enter the 2 fileds one is name like dhl or fedx etc and next to it its costs if he adds he can able to delete it or edit it or add any these no one can access it and he can create in his dashboard the coloaders he can add he create and gennerate the logins and if coloader logins then he can able to edit the fuel surcharges only he can vioew that and the total amount in the booking dasboard the botteom need to present the co loaders and admin same functionality throughh the pages but the super admin can able to add the fuel surcharges and manage the coloaders and all next he said he need the performa should be very accurate the coloaders and asmins can access the all just like the xpression and now for the invoice he need to enter the id then the invoices which are in pdfs showed down all and aslo he can sort by date up to then etc and also there should be share option if it clicks then the whatsapp should be openn in the portal he can send thesee pdfs the invoice i will sahre the pdf refrer it the client is the coloader for the icl before his id wf439 is prest in the pdf just like his the coloaders shold be preent there i share the thing about the invoice printing next the sender and receiver is there in the dashboard so as usual there are buttons like export in excel or pdfs at top check those and next the day end button open the page where the user can see the buttons wharehouse pending delivary pending refe5rs to the in travelling and booking pending add the appropriate names to buttons if selects the date and present date we can get the complete details of them by filtering next the tracking user need to get the tracking page where he need to add the points like BOOKING CONFIRMED
+
+SHIPMENT RECEIVED
+
+HANDLING IN PROGRESS
+
+PROCESSED AND PACKED FOR EXPORT
+
+SHIPPING LABEL GENERATED
+
+SHIPMENT FORWARDED TO AIRPORT these open for every ids he had in his portal for every awb id under these should be in row one by one the check boxes should be present if he clicks the check boxres the awb id when the customer tries to track the order in the page what the user clicks at what stage the check boxes files the uuser showes that and at top section for the super admin need to create theese he can add the stages or edit or delete etc those will aply for the all awb ids and for the food section the same process for all but the logic this is the ecommerce portal right so same invoice is used but the sender automatically the admin company then he need to only enter the recievrr details and same invoicve creates and sahres them but in every portal there should be the tabs for logistics and food if logistics it will have the logistics logic for food the foods logic example in the traclking also there should be food and logistics if clicks the food then the same he can create the satges and aslo clicks the check boxes and for his usecase for the evry id in tracking if he clicks the pdf button on the ids he can see the pdf he get the beetyer idea then and most important thing the dashboard just like xperesion dashboard we need exactlyif he clicks suppose the orange one the page opens so just like that i need every thing and sing out buttons in profile etc etc what are requirements plane qall those if i missed the essentials i guess all this you can get the complete picture
+
+I have compiled a complete, end-to-end operational blueprint that incorporates all your specified frontend and backend requirements, role permissions, tracking workflows, invoice mechanisms, and the dual-module (Logistics + Food E-commerce) architecture.
+
+1. Core Architecture & Navigation
+                       ┌──────────────────────────────┐
+                       │   Global Dual-Tab Switcher   │
+                       └──────────────┬───────────────┘
+                                      │
+             ┌────────────────────────┴────────────────────────┐
+             ▼                                                 ▼
+┌──────────────────────────┐                      ┌──────────────────────────┐
+│     LOGISTICS MODULE     │                      │      FOOD / E-COMMERCE   │
+├──────────────────────────┤                      ├──────────────────────────┤
+│ * AWB Entry & Booking    │                      │ * Product Catalog        │
+│ * Fuel Surcharge Config  │                      │ * Weight/Variant Config  │
+│ * Day End Status Portal  │                      │ * Auto-Sender Invoice    │
+│ * Co-loader Management   │                      │ * Food Order Tracking    │
+└──────────────────────────┘                      └──────────────────────────┘
+2. Authentication & Role-Based Access Control (RBAC)
+The system enforces strict permission boundaries between the Super Admin and Co-loaders / Branch Admins:
+
+Feature / Action	Super Admin	Co-loader / Admin
+Manage Co-loaders (Create logins, assign IDs like WF439)  
+PDF
+
+✅ Full Control	❌ No Access
+Manage Fuel Surcharges (Add/Edit/Delete Vendor & Costs)	✅ Full Control	👁️ View / Apply Only
+Manage Tracking Stages Master (Add/Edit/Delete global pipeline)	✅ Full Control	❌ No Access
+AWB / Order Booking Entry	✅ Yes	✅ Yes
+Invoice PDF Generation & WhatsApp Sharing	✅ Yes	
+✅ Yes (Branded with Co-loader ID)  
+PDF
+
+Update Checkbox Tracking Stages	✅ Yes	✅ Yes
+Day End Operations & Exports (Excel/PDF)	✅ Yes	✅ Yes
+3. Xpression-Style Interactive Dashboard Hub
+The dashboard closely mirrors the Xpression analytics layout:
+
+Top Filter Bar: Filter analytics by From Date, To Date, Origin, and Service Center.
+
+Outbound & Inbound Charts: Interactive visual pie/donut charts breakdown statuses (Booking, Delivered, Pending, Manifesting, RTO, UnManifested).
+
+Click-Through Navigation: Clicking any chart segment or colored tile (e.g., clicking Delivered: 3 or Pending: 21) instantly routes to the detailed table landing view pre-filtered by that specific status.
+
+Header Bar Controls: User Profile dropdown with Sign Out, Account Limit/Balance summary tags, and universal quick search.
+
+4. Logistics Module Deep-Dive
+A. Booking Form (AWB Entry) & Fuel Surcharges
+Super Admin Surcharge Control: A top-section button labeled "Add Fuel Surcharge". Clicking it adds dynamic input rows:
+
+Field 1: Vendor / Carrier Name (e.g., DHL, FedEx, UPS).
+
+Field 2: Surcharge Amount / Rate.
+
+Controls: Add, Edit, or Delete rows (Super Admin only).
+
+Co-loader Calculation Row: The bottom total summary auto-calculates base rate + fuel surcharges + taxes, accessible to both Admins and Co-loaders.
+
+Shipper & Consignee Proforma Details: Comprehensive form capturing CSB Type (CSB4), Terms of Invoice, Export Reason dropdowns (e.g., Unsolicited Gift, Free Sample), piece dimensions, and actual vs. volumetric weight calculation.
+
+B. Invoice Management & WhatsApp Sharing
+Invoice Listing & Search: Enter an Order / AWB ID to retrieve all generated PDF invoices below.
+
+Date Range Filtering: Filter invoices between custom From Date and To Date.
+
+WhatsApp Direct Integration: An inline "Share via WhatsApp" button per invoice row. Clicking it triggers api.whatsapp.com with pre-populated phone numbers and direct PDF download links.
+
+Custom PDF Template: Matches the ICL format:  
+PDF
+
+Displays the Co-loader ID prominently (e.g., Account Number WF439).  
+PDF
+
+Auto-generates barcodes, Shipper/Consignee addresses, package weights, and declared customs values.  
+PDF
+
+C. Day End Operations Portal
+Features three high-priority quick-action filter buttons:
+
+Warehouse Pending: Highlights items currently scanned/holding at the local hub.
+
+Delivery Pending (In Transit): Filters orders currently out on delivery or moving between hubs.
+
+Booking Pending: Displays unmanifested or freshly created orders requiring dispatch.
+
+Includes full date range selector to audit daily operational history.
+
+5. Dynamic Checkbox Tracking System (Logistics & Food)
+[ AWB #6003358371 ] ──► [ View PDF ]
+  ☑ 1. BOOKING CONFIRMED
+  ☑ 2. SHIPMENT RECEIVED
+  ☐ 3. HANDLING IN PROGRESS
+  ☐ 4. PROCESSED AND PACKED FOR EXPORT
+  ☐ 5. SHIPPING LABEL GENERATED
+  ☐ 6. SHIPMENT FORWARDED TO AIRPORT
+Super Admin Stage Configurator: The Super Admin can globally add, edit, or reorder pipeline stages in the master settings.
+
+Admin / Co-loader Action Panel:
+
+Displays every AWB ID in a row-by-row matrix.
+
+Each stage appears with an interactive Checkbox.
+
+Checking a box immediately saves the timestamp and updates the live customer tracking timeline.
+
+Inline PDF Preview: Every tracking row includes a direct "View PDF" button to quickly pull up the shipping label/invoice without leaving the tracking page.
+
+Food Tracking: Operates on the exact same checkbox mechanism under the Food tab, pre-configured with e-commerce stages (Order Placed, Packed, Dispatched, Out for Delivery).
+
+6. Food / E-Commerce Module Specifics
+Variant & Weight Configurator: Admin can set weight-based pricing variations for items like pickles and snacks (250g, 500g, 1kg, 2kg, 3kg, 4kg, etc.).
+
+Auto-Sender Billing Logic: When generating invoices in the Food section:
+
+Sender Details: Auto-locked to the Admin's registered company store address.
+
+Receiver Details: Admin/Staff only needs to fill in the customer's delivery information.
+
+Uses the same PDF layout, export options, and WhatsApp sharing workflow as the logistics engine.
+
+7. Global Data Export & Master Screens
+Across both Sender Master, Receiver Master, and Landing Report pages:
+
+Export Controls: Prominent Export to Excel and Export to PDF buttons located at the top toolbar.
+
+Search & Pagination: Live column-based search bars, sorting, and pagination controls (Showing 1 to 10 of 100 entries).
+
+Potential Missing Essentials To Consider
+Payment Gateway Integration: For the Food E-commerce module, will customers pay online (Razorpay/Stripe) or is it manual/COD processed by staff?
+
+Automated SMS/WhatsApp Webhooks: Beyond manual WhatsApp sharing, should status updates trigger automated WhatsApp messages via an API provider (like Twilio or AiSensy) when a checkbox is clicked?
+
+Would you like us to focus next on designing the Database Schema (SQL tables & relationships) for this architecture, or would you prefer to outline the API endpoints first?
+
+yes you got the right thing i forgot the payment gateway use the cashfree one for food so customer need to take the whatsapp business account i guess he had that canty we use that i want to use the firebase databse for images etc and data will stores right
+
+That makes complete sense! Adding Cashfree for payments, using WhatsApp Business for invoice/tracking updates, and leveraging Firebase for database and storage rounds out the full tech stack nicely.
+
+Here is how these three components integrate into your project architecture:
+
+1. Cashfree Payment Gateway (Food E-Commerce)
+For the Food & Pickles module, Cashfree handles all online payments cleanly:
+
+Customer Checkout Flow:
+
+Customer selects food item & weight variant (e.g., Avakaya Pickle - 1kg).
+
+Clicks Checkout → App creates a Cashfree Payment Order.
+
+Opens Cashfree Hosted Checkout (UPI, Cards, Net Banking, Wallets).
+
+Payment Webhooks & Order Trigger:
+
+Once paid, Cashfree sends a secure webhook signal back to the server.
+
+System updates order status to Paid, generates the Invoice PDF, uploads it to Firebase Storage, and notifies the Admin.
+
+2. WhatsApp Business Integration Strategy
+You have two options depending on how the client wants to handle WhatsApp messaging:
+
+Option A: Direct Web / App Share (Free & Instant)
+Uses standard WhatsApp links ([https://wa.me/](https://wa.me/)<phone_number>?text=<invoice_link>).
+
+When the staff or co-loader clicks Share on WhatsApp, it opens their personal/business WhatsApp Web or Mobile app with the pre-filled message and PDF link ready to send.
+
+Pros: Zero API costs, no Meta approval required.
+
+Option B: Official WhatsApp Cloud API (Automated)
+Connects the client's WhatsApp Business Account / Meta Developer Portal.
+
+Automatically fires automated messages directly to the customer's phone whenever:
+
+A new food/logistics order is placed.
+
+A tracking stage checkbox is checked by staff.
+
+An invoice PDF is generated.
+
+Pros: 100% automated background sending.
+
+3. Firebase Architecture (Database & Media Storage)
+Firebase provides a scalable, real-time backend for this setup:
+
+                          ┌──────────────────────────┐
+                          │     FIREBASE SUITE       │
+                          └─────────────┬────────────┘
+                                        │
+           ┌────────────────────────────┴────────────────────────────┐
+           ▼                                                         ▼
+┌────────────────────────────────────┐                   ┌───────────────────────────────────┐
+│     Cloud Firestore (Database)     │                   │     Firebase Storage (Files)      │
+├────────────────────────────────────┤                   ├───────────────────────────────────┤
+│ * Users & Co-loaders (Roles/IDs)   │                   │ * Food Product Photos             │
+│ * Fuel Surcharges Master           │                   │ * Auto-Generated Invoice PDFs     │
+│ * Logistics AWBs & Food Orders     │                   │ * Signed Proofs of Delivery (POD) │
+│ * Custom Dynamic Tracking Stages   │                   │ * Company Logos & Banners         │
+└────────────────────────────────────┘                   └───────────────────────────────────┘
+Finalized Architecture Summary
+Frontend: Single Web App with Dual-Tab Switcher (Logistics Portal ↔ Swiggy-style Food Store).
+
+Database: Firebase Cloud Firestore (Documents for AWBs, Food Items, Co-loader Accounts, Fuel Surcharges).
+
+Storage: Firebase Cloud Storage (Invoices, PODs, Product Images).
+
+Payments: Cashfree PG integration for Food Store orders.
+
+Messaging: WhatsApp Integration (Manual Share link or Automated Meta Business Cloud API).
+
+Authentication: Role-Based Access Control (Super Admin vs. Co-loaders/Staff).
+
+Would you like us to map out the Firebase Database Collections & Fields Schema (for AWBs, Food products, Users, etc.) next?
+
+WE NEED NOT STORE THE PDFS  i guess if we sahres in pdfs is that possible and aslo if share button clickes the portal can open the whatsapp in portal at sideis that possible if not we can download the invoices and share in whats right is this possible Built-in Custom WhatsApp Side Drawer (Using Official API)
+
+If the client uses the WhatsApp Cloud API:
+
+
+
+Clicking "Share on WhatsApp" opens a custom side drawer directly in your portal.
+
+
+
+The drawer shows a preview of the message and customer details.
+
+
+
+Clicking "Send PDF" sends the invoice PDF directly to the customer's WhatsApp in the background without staff ever needing to open WhatsApp Web or handle files manually. with the busniess account we can send right and aslo i want to ask that the logisticts we had one logo the food has one logo so the invoices changes the logo right and shares accordingly
+
+Yes! Everything you described is 100% possible, elegant, and standard practice in modern enterprise systems.
+
+1. On-the-Fly PDF Generation (No Need to Store PDFs)
+You do not need to store PDF files in Firebase Storage at all.
+
+How It Works:
+Dynamic Generation: When staff clicks "View Invoice", "Download PDF", or "Send via WhatsApp", the backend dynamically compiles the invoice data (Customer name, items, weights, prices, tracking numbers) and generates the PDF in-memory (using libraries like pdfmake or puppeteer).
+
+Benefits:
+
+Zero Firebase Storage costs for millions of invoices.
+
+Invoices are always 100% up-to-date with the database.
+
+If an order detail is corrected later, the PDF automatically updates without needing file replacements.
+
+2. Built-In WhatsApp Portal Side Drawer (Using WhatsApp Cloud API)
+The exact workflow you envisioned with Meta’s official WhatsApp Cloud API and a Business Account can be implemented directly within the portal.
+
+┌─────────────────────────────────────────────────────────────┬─────────────────────────────────┐
+│                     MAIN PORTAL SCREEN                      │    WHATSAPP SIDE DRAWER         │
+│                                                             ├─────────────────────────────────┤
+│  AWB / Order ID: #6003358371                                │ Customer: MUPPALLA BUCHI RAMARAO│
+│  Customer: MUPPALLA BUCHI RAMARAO                           │ Phone: +91 8143888039          │
+│                                                             │ Template: Invoice_Notification  │
+│  [ View Invoice ]  [ Share on WhatsApp ] ───► OPENS DRAWER  │                                 │
+│                                                             │ Message Preview:                │
+│                                                             │ "Hello, here is your invoice"   │
+│                                                             │                                 │
+│                                                             │ [ 📄 Invoice_6003358371.pdf ]   │
+│                                                             │                                 │
+│                                                             │ [ 🚀 Send PDF to WhatsApp ]    │
+└─────────────────────────────────────────────────────────────┴─────────────────────────────────┘
+The Step-by-Step Portal Experience:
+Staff clicks the "Share on WhatsApp" button next to an order.
+
+A sleek Side Drawer / Slide-Over Panel opens inside your portal page without navigating away.
+
+The drawer populates:
+
+Customer Contact Details (Name, Phone number).
+
+Message Template Preview (e.g., "Dear Ramarao, your invoice for Order #6003358371 is ready.").
+
+Attached PDF Preview (generated dynamically on the fly).
+
+Staff clicks "Send PDF":
+
+The backend sends the generated PDF buffer straight to Meta's API endpoint (graph.facebook.com).
+
+The customer receives the official document directly on their WhatsApp phone app!
+
+A success notification ("Invoice sent successfully!") pops up inside the side drawer.
+
+Fallback Option:
+If WhatsApp API credentials ever need maintenance, staff can click "Download Invoice" to save the PDF locally and send it manually.
+
+3. Dynamic Logo & Branding for Logistics vs. Food
+Since PDFs are built dynamically on demand, the system detects whether the invoice belongs to the Logistics Tab or the Food Tab and applies the correct branding instantly.
+
+Feature / Branding	Logistics Module Invoice	Food / E-commerce Module Invoice
+Header Logo	Logistics Company Logo	Food / Pickles Brand Logo
+Sender Details	Co-loader Details / Account Code (e.g., WF439)	Store Official Admin Company Name & GST
+Item Breakdown	Package Weight, Dimensions, AWB No., Fuel Surcharges	Food Item Name, Selected Weight Variant (e.g., 1 kg, 500g), Quantities
+WhatsApp Sender	Sent via Logistics WhatsApp Business	Sent via Food WhatsApp Business (or unified API)
+Summary Confirmation
+PDF Storage: Zero PDF storage required. Built in-memory on demand.
+
+Portal WhatsApp Side Drawer: Fully achievable via Meta WhatsApp Cloud API without staff ever opening WhatsApp Web manually.
+
+Dual Logo / Branding: Automatically switches logos and sender addresses based on Logistics vs. Food context.
+
+analyze everything what we had discussed till now and remeber everything doint give nything just say okay and acknowledge evertthing till now and reply me done if completes
+
+Okay, I have fully understood and recorded all the requirements for your dual-module system (Logistics & Food E-Commerce):
+
+Frontend & Architecture: Swiggy-style dual-tab toggle, dynamic weight selector (Flipkart-style), and Xpression-style dashboard with interactive chart navigation.
+
+Logistics & Admin Rules: Super Admin surcharge controls, Co-loader management (with specific IDs like WF439), CSB4 proforma details, Day End filter status buttons, Sender/Receiver masters with PDF/Excel export.  
+PDF
+
+Tracking System: Super Admin global stage configurator, interactive checkbox tracking for both Logistics and Food, with direct inline PDF viewing.
+
+Invoices & WhatsApp: Dynamic in-memory PDF generation (no storage needed), automatic dual-logo branding switching, and a built-in WhatsApp Cloud API side drawer for direct background PDF sending.
+
+Food & Integrations: Cashfree payment gateway, auto-populated Admin sender details, and Firebase backend/storage setup.
+
+Everything is clear and locked in.
+
+Done!
+
+ok now we need to build thjios using the stitch first generate the prompt for the ui and next i will import that top ai studio so we need the complete page not the place holders codes we need to code evry thing every single button components etc etc ebvery thing end to end so we need the two prompts one for the stitch and next for the ai so dont generte two at atime first your task is only generate the stitch prompt now and in stitch we need to had the 16 images throshold so generate the amin pages we will use them of those 15 the ai studio will understand the design and contines the ui and also in the admin poage theres should be respective page where he can cretae the foods right like enter the foods images annd qutaity buttons etc etc and categories at top like ecommeres qhad like pickes snakes etyc etc whatever the admin creates the catageioes add the items and prices what ever is need he can cretaes those the logo is so add thses colours for logistics page and the orange or yellow one for the food page and gnertae the stitch complete prompt now
+
+Here is your complete master prompt for Google Stitch.
+
+It specifies 15 key screens (staying safely under the 16-image threshold) and includes the exact color codes extracted from your Sreshta Logistics logo (#0E2A47 Navy Blue and #00A8B5 Teal), along with the Food module's Warm Orange palette (#FF6B00).
+
+📋 Copy & Paste This Prompt into Google Stitch:
+Plaintext
+Create a high-fidelity, production-grade, multi-tenant UI design system and web portal layout for a dual-purpose platform: "Sreshta Logistics" & "Sreshta Food E-Commerce".
+
+---
+
+### DESIGN TOKENS & BRANDING
+
+1. LOGISTICS PALETTE (Derived from Sreshta Logistics Logo):
+   - Primary Dark: Deep Navy Blue (#0E2A47)
+   - Accent / Brand Teal: Electric Teal (#00A8B5)
+   - Light Background: Soft Gray-Blue (#F4F7FA)
+   - Border & Card Outline: Cool Slate (#E2E8F0)
+
+2. FOOD E-COMMERCE PALETTE:
+   - Primary Brand: Warm Spice Orange (#FF6B00)
+   - Accent Gold: Golden Amber (#FFA500)
+   - Soft Background: Light Warm Cream (#FFF9F5)
+
+3. TYPOGRAPHY & STYLE:
+   - Font: Inter / Plus Jakarta Sans
+   - Layout Style: Clean enterprise dashboard aesthetic (inspired by Xpression Logistics Cloud) paired with modern consumer app UI (inspired by Swiggy / Flipkart).
+
+---
+
+### GLOBAL NAVIGATION BAR (Top Bar - Present on All Pages)
+- Left: Dual Logo Branding (Sreshta Logistics & Food) with dynamic logo switching.
+- Center: Prominent Swiggy-style Segmented Toggle Switch: [ 🚚 Logistics Services | 🍱 Food & Snacks Store ]
+- Right: Account Limit Badge ("Limit: ₹2,00,000 | Used: -₹14,43,317 | Balance: ₹16,43,317"), Quick Search Bar, Notifications Bell, and User Profile Dropdown ("Welcome S0047" + Sign Out).
+
+---
+
+### GENERATE THE FOLLOWING 15 SPECIFIC SCREENS:
+
+---
+
+#### 🌐 LOGISTICS MODULE SCREENS
+
+SCREEN 1: Public Logistics Portal Landing (Reference: giantwings.in)
+- Hero section with quick AWB tracking box ("Enter Order ID / AWB Number").
+- Service cards (Air Cargo, Express Courier, International Freight, Doorstep Pickup).
+- "Track Order" button and prominent top header link for "Admin / Co-loader Login".
+
+SCREEN 2: Xpression-Style Enterprise Dashboard Hub
+- Filter Header: Date Pickers (From/To), Origin Dropdown, Service Center Dropdown, "Search" and "Refresh" buttons.
+- Analytics Section: Outbound & Inbound interactive Donut Charts showing counts for Booking, Delivered, Pending, RTO, UnManifested, Void Shipments.
+- Clickable Summary Stats Tiles (Orange/Teal badges): Clicking "Pending" or "Delivered" filters the live tracking table below.
+
+SCREEN 3: Logistics AWB Booking Form ("AWB Entry")
+- Top Control Bar: "Add Fuel Surcharge" button (Super Admin only) which dynamically reveals editable rows with Vendor Name (e.g., DHL, FedEx) and Cost input fields with Delete buttons.
+- Shipper Details Card: Origin, Shipper Name, Address 1 & 2, Pincode, City, State, Mobile, GSTIN, Aadhar.
+- Consignee Details Card: Destination, Company Name, Contact Name, Address, Pincode, Country, IEC No.
+- Services Details Card: Product Type, Vendor, Service (SELF), Shipment Value, Pieces, Actual Weight vs. Volumetric Weight (L x W x H / 5000).
+- Proforma / CSB Details Panel: CSB Type (CSB4), Export Reason Dropdown ("UNSOLICITED GIFT - NOT FOR SALE"), Invoice No/Date fields.
+- Bottom Bar: Total Charge calculation row including Co-loader ID display, Fuel Surcharge, and "Save / Cancel" buttons.
+
+SCREEN 4: Admin Co-Loader & Fuel Surcharge Management
+- Super Admin management panel to create co-loader accounts (e.g., Co-Loader Code "WF439").
+- Permission toggle switches: "View Fuel Surcharges Only", "AWB Creation", "Invoice PDF Access".
+- Fuel Surcharge master grid with Add/Edit/Delete capabilities for carrier rates.
+
+SCREEN 5: Interactive Tracking Stage Control Matrix (Admin / Co-loader View)
+- Order row table displaying AWB IDs, Customer Name, and Booking Date.
+- Row-by-Row Pipeline Checkboxes:
+  [ ] 1. BOOKING CONFIRMED
+  [ ] 2. SHIPMENT RECEIVED
+  [ ] 3. HANDLING IN PROGRESS
+  [ ] 4. PROCESSED AND PACKED FOR EXPORT
+  [ ] 5. SHIPPING LABEL GENERATED
+  [ ] 6. SHIPMENT FORWARDED TO AIRPORT
+- Inline Action Buttons: "View PDF Invoice" button on each row.
+- Top Super Admin Controls: Global "+ Add New Stage", "Edit Stages", and "Delete Stage" buttons.
+
+SCREEN 6: Customer Public Order Tracking Result Page
+- Clean timeline view showing completed stages (highlighted in Teal with checkmarks) and upcoming stages.
+- Detailed shipment metadata (Origin, Destination, Expected Delivery, Weight, Pieces).
+- "Download Shipping Label / Invoice PDF" button.
+
+SCREEN 7: Day End Operations Status Portal
+- Date Range Selector & Search Bar.
+- Three High-Priority Status Action Buttons:
+  1. [ 📦 Warehouse Pending ]
+  2. [ 🚚 Delivery Pending (In Transit) ]
+  3. [ 📋 Booking Pending ]
+- Detailed tabular view filtered by selected action, with top "Export to Excel" and "Export to PDF" toolbar.
+
+SCREEN 8: Sender & Receiver Master Directories
+- Data table listing Origin Code, Shipper/Consignee Name, Address, Mobile, GST, and Actions (Edit Pencil, Delete Trash icon).
+- Top Action Bar: Search input, Add New Contact (+), Export to Excel, Export to PDF buttons.
+
+---
+
+#### 📱 INVOICE & WHATSAPP INTEGRATION SCREENS
+
+SCREEN 9: Invoice Management Hub with Built-In WhatsApp Side Drawer
+- Invoice search bar by AWB / Order ID, plus Date Range Filter ("From Date" to "To Date").
+- Data table listing Order ID, Customer Name, Date, Amount, Status, and Action buttons ("View PDF", "Share on WhatsApp").
+- WHATSAPP SIDE DRAWER (Slide-over panel on the right):
+  - Shows Customer Name, Phone Number (+91 8143888039).
+  - Pre-filled message preview template.
+  - Attached Dynamic PDF Invoice chip preview ("Invoice_WF439_6003358371.pdf").
+  - Primary Action Button: "🚀 Send PDF via WhatsApp Business API".
+
+SCREEN 10: Custom ICL-Style PDF Invoice Layout View
+- Printable PDF layout matching official logistics standards.
+- Top Header: Logistics Logo, Account Code "WF439", Date, Barcode (e.g., 6003358371).
+- Two-Column Layout: Sender Box (Guntur Address, Phone) vs. Receiver Box (USA Address).
+- Package details table: Contents ("USED CLOTHES / PICKLES"), Pieces (1), Actual Weight (11.00 Kgs), Charged Weight, CSB4 Stamp, Declared Value (3200 INR).
+
+---
+
+#### 🍱 FOOD & E-COMMERCE MODULE SCREENS
+
+SCREEN 11: Public Food E-Commerce Storefront (Swiggy / Instamart Style)
+- Category Navigation Pills at top: [ All | Pickles | Snacks | Sweets | Homemade Pastes ].
+- Product Grid displaying Food Cards (e.g., Mango Pickle, Gongura Pickle, Spicy Murukku):
+  - High-res food image, product title, rating.
+  - Flipkart-style Weight Variant Selector Chips directly on card: [ 250g | 500g | 1 kg | 2 kg | 3 kg | 4 kg ].
+  - Dynamic price update based on selected weight chip.
+  - "Add to Cart" / "Buy Now" button.
+
+SCREEN 12: Admin Food Catalog & Weight Variant Manager Page
+- Product Creation Form: Title, Description, Image Upload box, Category Dropdown.
+- Variant Builder Matrix:
+  - Weight Label (e.g., 500g, 1 kg, 2 kg)
+  - Price (₹)
+  - Stock Quantity
+  - Add / Delete Variant button.
+- Live preview card showing how the item will render on the user frontend.
+
+SCREEN 13: Food Order Checkout & Cashfree Payment Gateway View
+- Left Column: Order Summary with selected weight variants, quantities, item totals, delivery charges.
+- Right Column: Receiver Address Details form. (Sender is auto-locked to Admin Store Address).
+- Payment Modal Pop-up: Cashfree Hosted Payment options (UPI, QR Code, Credit/Debit Cards, Net Banking).
+
+SCREEN 14: Food Order Tracking Matrix (Admin View)
+- Tracking list for e-commerce orders with customizable food pipeline checkboxes:
+  [ ] Order Placed -> [ ] Packed -> [ ] Dispatched -> [ ] Out for Delivery.
+- Dynamic WhatsApp drawer share trigger for food invoices.
+
+SCREEN 15: Global User Profile & Account Settings Drawer
+- Profile card with avatar, role tag (Super Admin / Co-loader).
+- Security settings, device registration status, and prominent "Sign Out" button.
+What to do next:
+Paste this into Google Stitch to generate the 15 UI mockup screens.
+
+Once generated, reply back with "Go ahead with AI Studio Prompt" and I will provide the end-to-end technical code prompt for AI Studio!
+
+once come from the scratch from the intial message to this get the complete idea and generate the complete prompt not placeholders the complete code i need and aslo the complete logic i need tio build and create the firebase codes all and create the .env files i will paste the apis all need to works coompletely
+
+Here is the complete, end-to-end technical documentation, master AI Studio prompt, Firebase database codes, security rules, and .env template for the entire Sreshta Logistics & Food E-Commerce Platform.
+
+SECTION 1: Complete System Logic & Data Blueprint
+                                    ┌─────────────────────────────────────────┐
+                                    │      SWIGGY-STYLE GLOBAL DUAL TAB       │
+                                    └────────────────────┬────────────────────┘
+                                                         │
+                        ┌────────────────────────────────┴────────────────────────────────┐
+                        ▼                                                                 ▼
+┌──────────────────────────────────────────────┐                  ┌──────────────────────────────────────────────┐
+│          LOGISTICS MODULE (Navy/Teal)        │                  │           FOOD MODULE (Orange/Gold)          │
+├──────────────────────────────────────────────┤                  ├──────────────────────────────────────────────┤
+│ * Public Landing & AWB Tracker               │                  │ * E-commerce Catalog (Pickles, Snacks, etc.) │
+│ * Xpression Interactive Analytics Dashboard  │                  │ * Flipkart-style Weight Selector             │
+│ * AWB Booking Entry + Dynamic Fuel Surcharges│                  │ * Auto-Sender Company Details Billing        │
+│ * Super Admin Co-Loader Management (WF439)   │                  │ * Cashfree Payment Gateway Checkout          │
+│ * Checkbox Tracking Matrix (6 Stages)        │                  │ * Dynamic Category & Variant Admin Manager   │
+│ * Day End Status Filter Portal               │                  │ * Checkbox Food Tracking Matrix              │
+│ * Sender / Receiver Master Address Books     │                  │ * On-the-Fly Branded Invoice PDFs            │
+└──────────────────────┬───────────────────────┘                  └──────────────────────┬───────────────────────┘
+                       │                                                                 │
+                       └────────────────────────────────┬────────────────────────────────┘
+                                                        │
+                                                        ▼
+                                    ┌─────────────────────────────────────────┐
+                                    │    CORE SHARED INTEGRATION ENGINES      │
+                                    ├─────────────────────────────────────────┤
+                                    │ 1. Firebase Firestore Real-Time DB      │
+                                    │ 2. Firebase Storage (Images & Media)    │
+                                    │ 3. WhatsApp Cloud API Portal Side Drawer│
+                                    │ 4. In-Memory Dynamic PDF Generator      │
+                                    └─────────────────────────────────────────┘
+Key Business Logic Rules
+Dynamic In-Memory PDF Generation: PDF invoices are generated live using jspdf + jspdf-autotable. No PDFs are saved to cloud storage, minimizing database overhead and eliminating stale file issues.
+
+Dynamic Logo & Header Switching: Logistics orders generate PDFs with the Sreshta Logistics logo and Co-loader account codes (e.g., WF439). Food orders automatically lock the sender details to the Admin Store Company and attach the Sreshta Food logo.  
+PDF
+
+Role-Based Permissions (RBAC):
+
+Super Admin: Full CRUD permissions across Co-loader accounts, global Fuel Surcharges, global Tracking Stage pipeline definitions, catalog management, and reports.
+
+Co-Loader / Staff: Can view fuel surcharges (read-only for calculations), create AWBs, update tracking stage checkboxes, view dashboard analytics, and trigger WhatsApp invoices.
+
+WhatsApp Portal Drawer: Clicking "Share on WhatsApp" slides open an in-app drawer displaying customer metadata, pre-rendered message text, and an attached PDF binary buffer. Clicking "Send" dispatches the document via Meta's Graph API (v18.0).
+
+Cashfree Checkout: Food checkout triggers a server-side Cashfree API call (/pg/orders), opens the hosted drop-in checkout, and processes webhooks to convert unpaid carts into confirmed orders.
+
+SECTION 2: Complete Master Prompt for Google AI Studio / Cursor
+Copy and paste the entire prompt block below directly into AI Studio or your code assistant to generate the functional Next.js/React codebase.
+
+Plaintext
+You are an expert Principal Full-Stack Engineer specializing in Next.js 14 (App Router), Tailwind CSS, Firebase v10 (Firestore & Storage), TypeScript, and Third-Party API Integrations (Cashfree PG & Meta WhatsApp Cloud API).
+
+Build a complete, production-ready, fully functional multi-tenant application for "Sreshta Logistics" & "Sreshta Food E-Commerce". Do NOT use any code placeholders, mock TODO comments, or incomplete handlers. Write full, runnable, robust logic for every single component and page.
+
+---
+
+### TECH STACK REQUIREMENTS:
+1. Framework: Next.js 14+ (App Router, React 18, TypeScript)
+2. Styling: Tailwind CSS, Lucide React Icons, Framer Motion
+3. Backend & DB: Firebase Modular SDK v10 (Cloud Firestore, Firebase Auth, Firebase Storage)
+4. PDF Generation: jsPDF + jspdf-autotable (Client/Server in-memory generation)
+5. Payments: Cashfree Payments SDK (@cashfreepayments/cashfree-js)
+6. Messaging: Meta WhatsApp Cloud API (Graph API v18.0)
+7. State Management: React Context API (Dual-Tab Toggle State, Auth State, Cart State)
+
+---
+
+### COLOR SCHEME & THEMING:
+- Global Switcher: Top header toggle for [ Logistics Services | Food & Snacks Store ]
+- Logistics Theme: Primary Navy (#0E2A47), Accent Teal (#00A8B5), Card Slate (#E2E8F0), Light BG (#F4F7FA)
+- Food Theme: Primary Orange (#FF6B00), Accent Gold (#FFA500), Light Cream (#FFF9F5)
+
+---
+
+### CORE MODULES & IMPLEMENTATION REQUIREMENTS:
+
+#### 1. AUTHENTICATION & RBAC CONTEXT (`/src/context/AuthContext.tsx`)
+- Implement full Firebase Auth email/password and session management.
+- Store user profiles in Firestore `users` collection with roles: 'SUPER_ADMIN' | 'CO_LOADER' | 'STAFF'.
+- Assign custom parameters like `coLoaderCode` (e.g., "WF439") to Co-loader profiles.
+
+#### 2. DUAL-TAB SYSTEM NAVIGATION (`/src/components/Header.tsx`)
+- Render global top navbar with account balance badge ("Limit: ₹2,00,000 | Used: -₹14,43,317 | Balance: ₹16,43,317").
+- Swiggy-style Segmented Toggle Component switching active context between 'LOGISTICS' and 'FOOD'.
+- Dynamically update brand logo, navigation links, and theme accent colors based on active tab.
+
+#### 3. LOGISTICS BOOKING FORM & FUEL SURCHARGES (`/src/app/logistics/booking/page.tsx`)
+- Super Admin Top Control: "Add Fuel Surcharge" button. Renders dynamic editable rows (Vendor Name, Cost, Delete button).
+- Form Cards: Shipper Details, Consignee Details, Service Details (Product, Vendor, Service, Pieces, Actual Weight, Volumetric Weight formula: L x W x H / 5000).
+- Proforma CSB Panel: CSB Type ("CSB4"), Terms, Export Reason ("UNSOLICITED GIFT - NOT FOR SALE"), Invoice No, Invoice Date.
+- Live Charge Calculation: Base Rate + Fuel Surcharge + Taxes. Automatically includes logged-in Co-loader Code (e.g., "WF439").
+- Firebase Firestore write: Saves complete AWB document to `logistics_awbs` collection upon submission.
+
+#### 4. XPRESSION-STYLE INTERACTIVE DASHBOARD (`/src/app/logistics/dashboard/page.tsx`)
+- Top Filter: Date pickers (From Date, To Date), Origin dropdown, Service Center dropdown.
+- Render Donut Chart analytics summarizing status counts (Booking, Delivered, Pending, RTO, UnManifested).
+- Make chart slices and summary cards interactive: Clicking "Pending" filters the table below to show only pending shipments.
+
+#### 5. CHECKBOX TRACKING MATRIX & STAGE CONFIGURATOR (`/src/app/tracking/page.tsx`)
+- Super Admin Header Control: Add/Edit/Delete global master stages.
+- Default Stages (Logistics): BOOKING CONFIRMED, SHIPMENT RECEIVED, HANDLING IN PROGRESS, PROCESSED AND PACKED FOR EXPORT, SHIPPING LABEL GENERATED, SHIPMENT FORWARDED TO AIRPORT.
+- Matrix Table: Renders row for each AWB ID with dynamic interactive checkboxes for each stage.
+- Checking a box updates Firestore document real-time with timestamp and completed status.
+- Includes inline "View PDF Invoice" button on each order row.
+- Customer Public View (`/track/[id]`): Displays visual timeline of checked stages with dates.
+
+#### 6. INVOICE HUB & BUILT-IN WHATSAPP SIDE DRAWER (`/src/components/WhatsAppDrawer.tsx`)
+- Invoice list with AWB search and Date Range Filter.
+- Clicking "Share on WhatsApp" opens a slide-over panel on the right side of the screen.
+- Drawer contents: Customer Name, Phone (+91...), Pre-filled text message, Dynamic PDF preview thumbnail.
+- "Send PDF" Button: Sends POST request to Next.js API route `/api/whatsapp/send`, which invokes Meta WhatsApp Cloud API (`https://graph.facebook.com/v18.0/YOUR_PHONE_NUMBER_ID/messages`) with the dynamically generated PDF document.
+
+#### 7. IN-MEMORY PDF GENERATOR ENGINE (`/src/lib/pdfGenerator.ts`)
+- Function `generateInvoicePDF(orderData, moduleType)`:
+  - If moduleType === 'LOGISTICS': Render ICL-style shipping label layout with Sreshta Logistics logo, Account Code "WF439", Barcode, CSB4 stamp, declared value, piece weight details.
+  - If moduleType === 'FOOD': Render E-Commerce Tax Invoice with Sreshta Food logo, Admin Store address as Sender, customer as Receiver, itemized food variants, GST breakdown.
+- Returns `jsPDF` instance, base64 string, or blob buffer. Zero file writes to cloud storage.
+
+#### 8. FOOD STOREFRONT & FLIPKART WEIGHT SELECTOR (`/src/app/food/store/page.tsx`)
+- Top Category Pill Filters (All, Pickles, Snacks, Sweets, Pastes).
+- Product Card: Image, Title, Description, Rating.
+- Weight Selector Chips: [ 250g | 500g | 1 kg | 2 kg | 3 kg | 4 kg ].
+- Selecting a weight updates the price dynamically in real time.
+- Cart Drawer with Cashfree Payment Gateway trigger.
+
+#### 9. ADMIN FOOD CATALOG & VARIANT BUILDER (`/src/app/food/admin/catalog/page.tsx`)
+- Create/Edit Food Items: Upload image to Firebase Storage, title, description, category.
+- Dynamic Weight Variant Builder: Add rows for Weight Label (e.g., "1 kg"), Price (₹), Stock.
+- Category Manager: Add/Edit categories (Pickles, Snacks, etc.).
+
+#### 10. CASHFREE PAYMENT INTEGRATION (`/src/app/api/cashfree/route.ts`)
+- Endpoint creates Cashfree order via `https://sandbox.cashfree.com/pg/orders` (or production).
+- Frontend initializes Cashfree JS checkout modal. On payment success, updates Firestore `food_orders` status to 'PAID' and triggers automated WhatsApp receipt.
+
+#### 11. DAY END OPERATIONS PORTAL (`/src/app/logistics/day-end/page.tsx`)
+- High-priority filter buttons: [ Warehouse Pending ], [ Delivery Pending (In Transit) ], [ Booking Pending ].
+- Date filtering + Export to Excel (`xlsx` library) and Export to PDF buttons.
+
+Build all pages, API routes, Firebase integrations, and shared components completely without any missing code blocks.
+SECTION 3: Firebase Configuration & Database Infrastructure
+1. Firebase Client Initialization Code
+Create the file at src/lib/firebase.ts:
+
+TypeScript
+import { initializeApp, getApps, getApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
+import { getStorage } from "firebase/storage";
+
+const firebaseConfig = {
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+};
+
+// Initialize Firebase App (Prevent re-initialization during SSR)
+const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
+
+export const auth = getAuth(app);
+export const db = getFirestore(app);
+export const storage = getStorage(app);
+export default app;
+2. Cloud Firestore Security Rules (firestore.rules)
+Paste these production security rules into your Firebase Console under Firestore Database -> Rules:
+
+JavaScript
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions for Role-Based Access Control
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    function getUserData() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data;
+    }
+
+    function isSuperAdmin() {
+      return isAuthenticated() && getUserData().role == 'SUPER_ADMIN';
+    }
+
+    function isCoLoader() {
+      return isAuthenticated() && (getUserData().role == 'CO_LOADER' || getUserData().role == 'SUPER_ADMIN');
+    }
+
+    // Users Collection
+    match /users/{userId} {
+      allow read: if isAuthenticated();
+      allow write: if isSuperAdmin();
+    }
+
+    // Logistics AWBs Collection
+    match /logistics_awbs/{awbId} {
+      allow read: if true; // Public tracking access
+      allow create, update: if isCoLoader();
+      allow delete: if isSuperAdmin();
+    }
+
+    // Fuel Surcharges Master Collection
+    match /fuel_surcharges/{surchargeId} {
+      allow read: if isAuthenticated();
+      allow write: if isSuperAdmin(); // Super Admin only management
+    }
+
+    // Master Tracking Stages Collection
+    match /tracking_stages_master/{stageId} {
+      allow read: if isAuthenticated();
+      allow write: if isSuperAdmin();
+    }
+
+    // Food Products & Categories
+    match /food_products/{productId} {
+      allow read: if true; // Public storefront browsing
+      allow write: if isSuperAdmin();
+    }
+    
+    match /food_categories/{catId} {
+      allow read: if true;
+      allow write: if isSuperAdmin();
+    }
+
+    // Food Orders Collection
+    match /food_orders/{orderId} {
+      allow read: if true; // Public order status tracking
+      allow create: if true; // Public checkout creation
+      allow update: if isCoLoader();
+      allow delete: if isSuperAdmin();
+    }
+
+    // Sender & Receiver Master Address Books
+    match /address_book_senders/{id} {
+      allow read, write: if isCoLoader();
+    }
+
+    match /address_book_receivers/{id} {
+      allow read, write: if isCoLoader();
+    }
+  }
+}
+3. Cloud Firestore Data Schema Definitions
+Below is the structure of the Firestore documents across your collections:
+
+Collection: logistics_awbs
+JSON
+{
+  "awbNumber": "6003358371",
+  "bookingDate": "2026-08-01T20:48:00Z",
+  "coLoaderCode": "WF439",
+  "clientName": "SANTHOSH KUMAR ENTERPRISES",
+  "shipper": {
+    "origin": "HYD",
+    "companyName": "SANTHOSH KUMAR ENTERPRISES",
+    "contactName": "TUMMALA SANTHOSH",
+    "address1": "VIJAYAWADA",
+    "pincode": "520001",
+    "city": "Krishna",
+    "state": "ANDHRA PRADESH",
+    "mobile": "8143888039",
+    "gstin": "37BETPT8008R1Z8"
+  },
+  "consignee": {
+    "destination": "USA",
+    "companyName": "TEJA",
+    "contactName": "TEJA",
+    "address1": "970 WESTMEADE DRIVE",
+    "city": "CHESTERFIELD",
+    "state": "MO",
+    "pincode": "63005",
+    "country": "U.S.A.",
+    "mobile": "8122233759"
+  },
+  "serviceDetails": {
+    "product": "INTERNATIONAL PRIORITY",
+    "vendor": "FEDERAL EXPRESS CORPORATION",
+    "service": "SELF",
+    "shipmentValue": 3200,
+    "pieces": 1,
+    "actualWeight": 11.0,
+    "volumetricWeight": 7.0,
+    "chargedWeight": 11.0,
+    "contentsDescription": "USED CLOTHES / PICKLES"
+  },
+  "proforma": {
+    "csbType": "CSB 4",
+    "exportReason": "UNSOLICITED GIFT - NOT FOR SALE",
+    "invoiceNo": "INV-2026-091",
+    "invoiceDate": "2026-06-20"
+  },
+  "pricingBreakdown": {
+    "baseRate": 2500,
+    "fuelSurcharge": 350,
+    "taxAmount": 350,
+    "totalAmount": 3200
+  },
+  "trackingPipeline": [
+    { "stageName": "BOOKING CONFIRMED", "completed": true, "updatedAt": "2026-08-01T20:48:00Z", "updatedBy": "WF439" },
+    { "stageName": "SHIPMENT RECEIVED", "completed": true, "updatedAt": "2026-08-01T21:15:00Z", "updatedBy": "WF439" },
+    { "stageName": "HANDLING IN PROGRESS", "completed": false, "updatedAt": null, "updatedBy": null },
+    { "stageName": "PROCESSED AND PACKED FOR EXPORT", "completed": false, "updatedAt": null, "updatedBy": null },
+    { "stageName": "SHIPPING LABEL GENERATED", "completed": false, "updatedAt": null, "updatedBy": null },
+    { "stageName": "SHIPMENT FORWARDED TO AIRPORT", "completed": false, "updatedAt": null, "updatedBy": null }
+  ],
+  "status": "IN_TRANSIT"
+}
+Collection: food_products
+JSON
+{
+  "title": "Avakaya Mango Pickle",
+  "description": "Authentic Andhra style homemade spicy mango pickle made with pure sesame oil.",
+  "category": "Pickles",
+  "imageUrl": "https://firebasestorage.googleapis.com/.../avakaya.jpg",
+  "variants": [
+    { "weightLabel": "250g", "price": 180, "stock": 50 },
+    { "weightLabel": "500g", "price": 340, "stock": 40 },
+    { "weightLabel": "1 kg", "price": 650, "stock": 30 },
+    { "weightLabel": "2 kg", "price": 1250, "stock": 15 },
+    { "weightLabel": "3 kg", "price": 1800, "stock": 10 },
+    { "weightLabel": "4 kg", "price": 2350, "stock": 5 }
+  ],
+  "isAvailable": true,
+  "createdAt": "2026-08-01T10:00:00Z"
+}
+SECTION 4: Environment Variables Template (.env.local)
+Copy these key definitions into your project root file named .env.local:
+
+Code snippet
+# ==============================================================================
+# FIREBASE CREDENTIALS (Client Side & Server Side)
+# ==============================================================================
+NEXT_PUBLIC_FIREBASE_API_KEY=AIzaSyYourFirebaseApiKeyHere
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=sreshta-logistics-food.firebaseapp.com
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=sreshta-logistics-food
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=sreshta-logistics-food.appspot.com
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=123456789012
+NEXT_PUBLIC_FIREBASE_APP_ID=1:123456789012:web:abcdef1234567890
+
+# ==============================================================================
+# META WHATSAPP CLOUD API CREDENTIALS
+# ==============================================================================
+WHATSAPP_PHONE_NUMBER_ID=109876543210987
+WHATSAPP_BUSINESS_ACCOUNT_ID=987654321098765
+WHATSAPP_ACCESS_TOKEN=EAAG...YourMetaSystemUserPermanentTokenHere
+WHATSAPP_WEBHOOK_VERIFY_TOKEN=sreshta_secure_webhook_token_2026
+
+# ==============================================================================
+# CASHFREE PAYMENT GATEWAY CREDENTIALS
+# ==============================================================================
+# Use 'https://sandbox.cashfree.com/pg' for testing, 'https://api.cashfree.com/pg' for production
+CASHFREE_ENV=TEST
+CASHFREE_APP_ID=TEST10023849abcdef0123456789
+CASHFREE_SECRET_KEY=cfsk_ma_test_123456789abcdef0123456789abcdef
+NEXT_PUBLIC_CASHFREE_MODE=sandbox
+
+# ==============================================================================
+# APP CORE CONFIGURATION
+# ==============================================================================
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+NEXT_PUBLIC_DEFAULT_CO_LOADER_CODE=WF439
+NEXT_PUBLIC_COMPANY_NAME=Sreshta Logistics & Food Private Limited
+ok it doesnt worked well now we need to hardcode everything so givd the complete description of my idea we will make this description in the two responses first i asked you the website the customer vieew that the website the two tabs and the track order and the admin button and give the complete description of the pproject first then next response the admin dashboard description i need the complete website side description like the logistics just follow the website as reference and for the food the ecommerce like selecting add to cart pay enter the details for address etc and track order that much only refer the website crawl all and give the descriptioon
+
+Here is the comprehensive, end-to-end blueprint for your platform. As requested, this is Part 1, covering the complete project vision and every single detail of the Customer-Facing Public Website (both Logistics and Food E-Commerce).
+
+🚀 PROJECT OVERVIEW & CORE ARCHITECTURE
+The platform is a unified, multi-service enterprise web portal operating under two primary brand identities:
+
+Sreshta Logistics: International cargo, courier, and freight booking engine.
+
+Sreshta Foods: An authentic Andhra food, pickle, and snack e-commerce storefront.
+
+Both services live under a single web application, accessible seamlessly through a Swiggy-style top segmented switcher.
+
+                           ┌──────────────────────────────────────────────┐
+                           │   GLOBAL DUAL-TAB SWITCHER (Header Toggle)   │
+                           └──────────────────────┬───────────────────────┘
+                                                  │
+                 ┌────────────────────────────────┴────────────────────────────────┐
+                 ▼                                                                 ▼
+┌──────────────────────────────────────────────┐                  ┌──────────────────────────────────────────────┐
+│       LOGISTICS PORTAL (Navy Blue / Teal)    │                  │       FOOD E-STORE (Warm Spice Orange)       │
+├──────────────────────────────────────────────┤                  ├──────────────────────────────────────────────┤
+│ * GiantWings-style Public Homepage           │                  │ * E-Commerce Product Catalog                 │
+│ * Instant AWB Search & Public Tracking       │                  │ * Flipkart-style Dynamic Weight Selector     │
+│ * Doorstep Pickup Request Booking Form       │                  │ * Interactive Cart Drawer & Address Checkout │
+│ * Services Showcase & Rate Calculator        │                  │ * Cashfree Payment Gateway (UPI, Cards)      │
+│ * Admin / Co-Loader Portal Gateway Login     │                  │ * Public Food Order Tracking Pipeline        │
+└──────────────────────────────────────────────┘                  └──────────────────────────────────────────────┘
+PART 1: CUSTOMER-FACING PUBLIC WEBSITE DESCRIPTION
+1. Global Navigation & Dynamic Branding Bar
+The top header stays persistent across the entire platform, giving visitors an intuitive way to switch services or access staff portals:
+
+Dual Logo Display: Automatically displays the Sreshta Logistics logo when in Logistics mode and switches to the Sreshta Foods logo when toggled to Food mode.
+
+Centered Segmented Toggle Switch:
+
+Button 1: 🚚 Logistics Services
+
+Button 2: 🍱 Food & Snacks Store
+
+Theme Accent Shift: Toggling to Logistics applies the Navy Blue (#0E2A47) & Teal (#00A8B5) theme. Toggling to Food applies the Warm Orange (#FF6B00) & Amber Gold (#FFA500) theme.
+
+Top Navigation Links:
+
+Logistics Mode Links: Home, Our Services, Track AWB, Rates & Calculator, Request Pickup, Contact Us.
+
+Food Mode Links: Shop All, Pickles, Snacks, Sweets, Pastes, Track Order.
+
+Action Controls (Right-Hand Side):
+
+Cart Icon (Food Mode): Sliding drawer button with a live item counter badge.
+
+Admin / Staff Login Button: High-visibility lock button leading straight to the internal management dashboard.
+
+2. Logistics Public Website (Inspired by GiantWings Layout)
+A. Hero Banner & Quick AWB Tracking Module
+Hero Visual: High-impact background graphic featuring air cargo jets, cargo ships, and delivery trucks.
+
+Headline: "Fast, Reliable & Global Logistics Services at Your Doorstep"
+
+Instant Tracking Box:
+
+Prominent input field: "Enter your 10-digit AWB / Tracking Number (e.g., 6003358371)".
+
+Action Button: "Track Shipment".
+
+Instant behavior: Pulls up a clean public tracking timeline directly on the homepage without requiring any login.
+
+B. Interactive Public Services Showcase
+Grid of interactive service cards detailing available shipment options:
+
+International Air Cargo & Courier: Express door-to-door delivery across USA, UK, Canada, Australia, and UAE.
+
+Commercial & CSB4 Export Cargo: Formal & informal sample exports with customs paperwork assistance.
+
+Food & Pickle Express Shipping: Specialized leak-proof international food packaging and dispatch.
+
+Household Goods & Excess Baggage: Affordable rates for students and families relocating abroad.
+
+C. Public Pickup Request / Booking Enquiry Form
+Allow customers to request shipment pickup from their residence or business:
+
+Shipper Pickup Details: Name, Mobile Number, Full Pickup Address, City, Pincode.
+
+Shipment Details: Destination Country, Estimated Weight (in kg), Commodity Type (Clothes, Homemade Food, Documents, Commercial Items).
+
+Preferred Date & Time: Date picker and preferred time slot for pickup team visit.
+
+Action: Submits request into the Admin Dashboard under "Pending Pickup Requests" and sends an SMS/WhatsApp acknowledgment to the customer.
+
+D. Public AWB Tracking Results Screen
+When a user inputs an AWB number, they receive a clean, customer-grade tracking summary:
+
+Header Summary: AWB ID, Current Status Badge (In Transit, Out for Delivery, Delivered), Origin, Destination, Expected Delivery Date.
+
+Visual Progress Timeline: Vertical step-by-step pipeline displaying completed stages with dates/timestamps:
+
+☑ Booking Confirmed
+
+☑ Shipment Received at Hub
+
+☑ Handling & CSB4 Processing
+
+☐ Packed for Export
+
+☐ Shipping Label Generated
+
+☐ Forwarded to Overseas Courier
+
+Download Customer Receipt: Button to view/download a public shipping receipt PDF (hiding sensitive backend costs/vendor rates).
+
+3. Food & Snacks E-Commerce Website
+A. Storefront Header & Category Navigation Bar
+Promotional Banner: Dynamic banner carousel highlighting deals (e.g., "Authentic Home Made Avakaya Pickle - Express Shipping to USA & Worldwide").
+
+Category Filter Pills: Horizontal scroll bar with category chips:
+
+[ All Items ] [ Homemade Pickles ] [ Traditional Snacks ] [ Sweets ] [ Curry Powders & Pastes ]
+
+B. Product Catalog Grid & Variant Card Architecture
+Each product card on the grid is designed for maximum clarity and quick conversion:
+
+Visuals: High-resolution product image, vegetarian/non-vegetarian indicator tag, star rating, and customer review count.
+
+Product Title & Short Description: e.g., "Andhra Special Mango Avakaya Pickle (Spicy & Oil Packed)".
+
+Flipkart-Style Dynamic Weight Selector Chips:
+
+Selectable weight variants directly on the card: [ 250g ] [ 500g ] [ 1 kg ] [ 2 kg ] [ 3 kg ] [ 4 kg ]
+
+Dynamic Price Update: Clicking any weight chip instantly updates the displayed price (e.g., selecting 250g displays ₹180, selecting 1 kg displays ₹650).
+
+Action Buttons:
+
+"Add to Cart" (Adds variant to side drawer cart).
+
+"Buy Now" (Opens instant checkout modal).
+
+C. Interactive Slide-Over Cart Drawer
+Clicking the cart icon slides open a drawer from the right side of the screen:
+
+Itemized List: Displays selected items, uploaded thumbnail image, chosen weight variant (e.g., 1 kg), quantity adjuster (- / +), and calculated line total.
+
+Bill Details Breakdown: Item Total, Packaging & Taxes, Flat Delivery Charge, and Total Payable Amount.
+
+Primary CTA: "Proceed to Checkout".
+
+D. Checkout & Address Entry Workflow
+A simplified 2-step checkout overlay:
+
+Step 1: Delivery Address Form
+
+Full Name, Mobile Phone Number, Email Address.
+
+Street Address / House No., Landmark, City, State, Pincode.
+
+Note: Sender details are auto-locked to the official Sreshta Food Store Company Address.
+
+Step 2: Instant Cashfree Payment Gateway
+
+Clicking "Pay Now" opens the Cashfree drop-in checkout modal.
+
+Supports: UPI (Google Pay, PhonePe, Paytm), Credit/Debit Cards, Net Banking, and Wallets.
+
+On success: Payment webhook verifies payment instantly, creates order status as PAID, and routes customer to Order Success Screen.
+
+E. Public Food Order Tracker
+Customers can check their order progress by entering their Food Order ID or Mobile Number:
+
+Displays order timeline: Order Placed (Paid) → Packed & Sealed → Dispatched → Out for Delivery → Delivered.
+
+Includes dynamic download button for the official E-Commerce Tax Invoice PDF.
+
+📊 FEATURE COMPARISON: LOGISTICS VS. FOOD WEBSITE
+Feature / Page Element	Logistics Public Portal	Food E-Commerce Store
+Primary Theme Color	Deep Navy Blue (#0E2A47) & Teal (#00A8B5)	Warm Spice Orange (#FF6B00) & Gold (#FFA500)
+Hero Focus	AWB Tracking Box & Pickup Booking	Banner Promotions & Category Filters
+Main Action	Track AWB / Request Pickup	Browse Products / Weight Variant Selection
+Pricing Engine	Weight & Volumetric Weight Rate Calculator	Flipkart-style Dynamic Weight Variant Chips (250g to 4kg)
+Checkout Flow	Enquiry / CSB Booking Request Form	Cashfree Payment Gateway Integration
+Tracking Pipeline	6-Stage Air Cargo Pipeline	4-Stage E-Commerce Order Pipeline
+PDF Documents	Shipping Label & AWB Booking Receipts	Official E-Commerce Tax Invoice PDF
+Ready for Part 2?
+Would you like me to proceed directly with Part 2: The Complete Admin Dashboard & Operations Portal Description (covering Super Admin controls, Co-Loader access, Checkbox Tracking Matrix, Fuel Surcharges, Day End reports, and WhatsApp Side Drawer)?
+
+now give the complete description of admin panel all detauiled description i need the complete admin side every poage and evry pre fill dropdown is need to cover every form and every button in side bar every thing it need to covers
+
+Here is Part 2: The Complete Admin Panel & Operations Portal Description, covering every single page, sidebar menu item, input field, pre-filled dropdown option, button, role permission, and operational workflow across both the Logistics and Food E-Commerce modules.
+
+🛠️ ADMIN PANEL & OPERATIONS PORTAL ARCHITECTURE
+The Admin Panel is an enterprise-grade workspace that dynamically adapts based on the logged-in user's role (Super Admin vs. Co-Loader / Staff) and the active module toggle (Logistics or Food).
+
+ ┌──────────────────────────────────────────────────────────────────────────────────────────┐
+ │                                 GLOBAL ADMIN TOP BAR                                     │
+ │  [ Brand Logo ]   [ 🚚 Logistics | 🍱 Food ]   [ Balance Tag ]   [ Search ]  [ User Profile ] │
+ └────────────────────────────────────────────┬─────────────────────────────────────────────┘
+                                              │
+ ┌─────────────────────────┬──────────────────┴─────────────────────────────────────────────┐
+ │ SIDEBAR NAVIGATION      │ MAIN ADMIN WORKSPACE                                           │
+ │                         │                                                                │
+ │ 📊 Analytics Dashboard  │  [ Page Header / Context Actions ]                             │
+ │ 📋 AWB Booking Entry    │  ┌──────────────────────────────────────────────────────────┐  │
+ │ 📍 Checkbox Tracking    │  │                                                          │  │
+ │ 📦 Day End Portal       │  │                Page-Specific Data Form,                  │  │
+ │ ⛽ Fuel Surcharges      │  │             Interactive Grid, or Analytics                 │  │
+ │ 👥 Co-Loader Master     │  │                                                          │  │
+ │ 🧾 Invoices & WhatsApp  │  └──────────────────────────────────────────────────────────┘  │
+ │ 📇 Address Books        │                                                                │
+ └─────────────────────────┴────────────────────────────────────────────────────────────────┘
+1. Global Admin Top Header Bar
+Dynamic Logo Switcher: Shows the Sreshta Logistics logo (#0E2A47 Navy & #00A8B5 Teal) in Logistics mode and the Sreshta Food logo (#FF6B00 Orange) in Food mode.
+
+Module Selector Toggle: A segmented control to switch instantly between Logistics Admin and Food Admin workspaces.
+
+Financial Ledger Tag: Displays real-time co-loader/admin financial status:
+
+Account Limit: ₹2,00,000 | Used Credit: -₹14,43,317 | Available Balance: ₹16,43,317
+
+Universal Search Bar: Instant lookup for any AWB Number, Food Order ID, Customer Phone, or Consignee Name.
+
+User Profile & RBAC Dropdown:
+
+Displays user identity badge (e.g., Welcome S0047 (Super Admin) or Welcome WF439 (Co-Loader)).  
+PDF
+
+Dropdown options: Profile Settings, System Logs, Change Password, and Sign Out.
+
+2. Sidebar Navigation Menu Breakdown
+Menu Item	Icon	Super Admin Access	Co-Loader / Staff Access	Description
+Analytics Dashboard	📊	Full Access	Full Access (Filtered to own account)	Xpression-style interactive analytics & charts
+AWB Booking Entry	📋	Full Access	Full Access	Complete proforma & booking entry form
+Checkbox Tracking Matrix	📍	Full Access + Configurator	Full Access (Checkbox updates only)	Interactive pipeline tracking & stage controls
+Day End Portal	📦	Full Access	Full Access	Operations hub with pending filter shortcuts
+Fuel Surcharge Master	⛽	Full Access (CRUD)	View / Apply Only	Vendor rate & fuel surcharge configuration
+Co-Loader Management	👥	Full Access	No Access	
+Manage branch accounts, limits, & codes  
+PDF
+
+Invoices & WhatsApp	🧾	Full Access	Full Access	Invoice history & WhatsApp Cloud API drawer
+Sender Address Master	📇	Full Access	Full Access	Directory of saved shippers and exporters
+Receiver Address Master	📇	Full Access	Full Access	Directory of saved international consignees
+Food Product Catalog	🍱	Full Access	View Only	Manage items, categories, & weight variants
+Food Orders & Payments	💳	Full Access	Full Access	Cashfree transaction ledger & order pipeline
+3. Detailed Logistics Admin Pages
+A. Xpression-Style Interactive Analytics Dashboard
+Top Filter Control Bar:
+
+From Date Picker (Default: Start of current month).
+
+To Date Picker (Default: Current date).
+
+Origin Dropdown: Pre-filled options (ALL, HYD - Hyderabad, VJA - Vijayawada, MAA - Chennai, DEL - Delhi, BOM - Mumbai).
+
+Service Center Dropdown: Pre-filled options (ALL, SRESHTA HUB 1, SRESHTA HUB 2, BRANCH WF439).  
+PDF
+
+Action Buttons: Search (Blue) and Reset Filters (Gray).
+
+Interactive Donut Analytics Charts:
+
+Visual status breakdown displaying count distributions across 6 categories:
+
+Booking Confirmed (Teal)
+
+Delivered (Green)
+
+Pending at Warehouse (Orange)
+
+In Transit (Blue)
+
+RTO / Returned (Red)
+
+UnManifested / Draft (Gray)
+
+Click-Through Behavior: Clicking any chart slice or summary metric card (e.g., clicking "Pending: 21") instantly routes to the detailed table view pre-filtered by that specific status.
+
+B. Comprehensive AWB Booking Entry Form
+The booking screen is organized into modular card sections with all fields and pre-filled dropdown options:
+
+Card 1: Top Surcharge Action Panel (Super Admin Control)
+Button: + Add Fuel Surcharge Row
+
+Dynamic Surcharge Matrix: Clicking the button inserts editable input rows:
+
+Field 1: Vendor / Carrier Name Dropdown (DHL Express, FedEx International, UPS Worldwide, Aramex, Self Logistics Network).
+
+Field 2: Fuel Surcharge Percentage / Flat Rate Input (% or ₹).
+
+Action: Delete Row icon button.
+
+Card 2: Shipper Details (Exporter / Sender)
+Quick Contact Loader: Select Saved Shipper Dropdown (Pre-fills shipper fields from Sender Master).
+
+Fields:
+
+Origin Code Dropdown (HYD, VJA, MAA, BLR, DEL).
+
+Shipper Company Name Text Input (Required).
+
+Contact Person Name Text Input (Required).
+
+Address Line 1 & Address Line 2 Text Inputs.
+
+Pincode Text Input (Auto-populates City/State).
+
+City & State Text Inputs.
+
+Mobile Number Input (10 digits).
+
+GSTIN / Tax ID Input (Optional).
+
+Aadhaar / Passport / KYC Number Input (Required for customs).
+
+Card 3: Consignee Details (Importer / Receiver)
+Quick Contact Loader: Select Saved Consignee Dropdown (Pre-fills receiver fields).
+
+Fields:
+
+Destination Country Dropdown (USA, Canada, United Kingdom, Australia, UAE, Germany, Singapore, New Zealand, Rest of World).
+
+Consignee Company / Name Text Input (Required).
+
+Contact Person Name Text Input.
+
+Delivery Street Address Text Area.
+
+Zip / Pincode Text Input.
+
+City & State / Province Text Inputs.
+
+Phone Number Input (With international country code selector).
+
+Tax ID / SSN / IEC Number Input.
+
+Card 4: Service & Shipment Details
+Fields & Pre-filled Dropdowns:
+
+Product Category Dropdown (International Express, Air Freight Cargo, Food & Commercial Gift, Excess Baggage, Document Express).
+
+Carrier / Vendor Dropdown (Federal Express Corporation, DHL Express, UPS, Self).
+
+Service Type Dropdown (SELF, VENDOR DELEGATED, DOOR TO DOOR).
+
+Shipment Value Input (₹ INR for customs declaration).
+
+Total Pieces / Boxes Numeric Input (e.g., 1, 2, 5).
+
+Actual Weight Input (kg).
+
+Volumetric Weight Calculator Inputs: Length (cm) × Width (cm) × Height (cm) /5000.
+
+Charged Weight Input (Auto-calculated: Greater of Actual Weight vs. Volumetric Weight).
+
+Commodity Contents Description Text Area (e.g., "USED CLOTHES / HOMEMADE PICKLES / SWEETS").
+
+Card 5: Proforma & CSB Details
+Fields & Pre-filled Dropdowns:
+
+CSB Type Dropdown (CSB 4 (Informal Samples/Gifts up to ₹5 Lakhs), CSB 5 (Commercial Shipments)).
+
+Terms of Invoice Dropdown (Free of Cost / Gift, FOB - Free on Board, CIF - Cost Insurance Freight, DDP - Delivered Duty Paid).
+
+Export Reason Dropdown (UNSOLICITED GIFT - NOT FOR SALE, COMMERCIAL SAMPLE, PERSONAL EFFECTS, REPAIR AND RETURN).
+
+Proforma Invoice Number Input (Auto-generated, editable).
+
+Invoice Date Date Picker.
+
+Card 6: Bottom Financial Calculation Summary Bar
+Displays calculated breakdown:
+
+Base Freight Rate: ₹2,500.00
+
+Fuel Surcharge Applied: ₹350.00
+
+Customs Duty & Taxes: ₹350.00
+
+Total Invoice Amount: ₹3,200.00
+
+Display tag: Booking Account Code: WF439.  
+PDF
+
+Action Buttons:
+
+Reset Form (Gray)
+
+Save Draft AWB (Yellow)
+
+Create & Generate AWB Invoice (Green Primary)
+
+C. Co-Loader & Account Management (Super Admin Only)
+Top Toolbar: + Create New Co-Loader Account Button, Search Bar.
+
+Co-Loader Table Grid:
+
+Co-Loader ID (e.g., WF439).  
+PDF
+
+Branch / Business Name (e.g., Santhosh Kumar Enterprises).
+
+Contact Person & Mobile.
+
+Assigned Credit Limit (₹ Editable).
+
+Current Credit Used & Available Balance.
+
+Account Status Toggle (Active / Suspended).
+
+Actions: Edit Permissions (Pencil), Reset Password (Key), Delete Account (Trash).
+
+Permissions Modal: Checkbox controls for Create AWB, View Fuel Rates Only, Access Invoices, Edit Tracking Stages.
+
+D. Dynamic Checkbox Tracking Matrix
+┌─────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ AWB NUMBER   │ CUSTOMER / DESTINATION │ STAGE PIPELINE CHECKBOXES                       │ ACTION│
+├──────────────┼────────────────────────┼─────────────────────────────────────────────────┼───────┤
+│ 6003358371   │ MUPPALLA RAMARAO (USA) │ ☑ 1. Booking Confirmed                          │ [📄]  │
+│              │                        │ ☑ 2. Shipment Received                          │ View  │
+│              │                        │ ☐ 3. Handling In Progress                       │ PDF   │
+│              │                        │ ☐ 4. Packed For Export                          │       │
+│              │                        │ ☐ 5. Shipping Label Generated                   │       │
+│              │                        │ ☐ 6. Forwarded To Airport                       │       │
+└──────────────┴────────────────────────┴─────────────────────────────────────────────────┴───────┘
+Super Admin Stage Configurator Header:
+
+Buttons: + Add Master Pipeline Stage, Reorder Stages, Edit Stage Names.
+
+Matrix Grid: Rows listing all active AWBs.
+
+Checkbox Interaction:
+
+Checking any stage box triggers a background update:
+
+Records the logged-in user ID (e.g., WF439) and exact timestamp.  
+PDF
+
+Immediately updates the public customer tracking timeline.
+
+Inline PDF Preview: View PDF button on every row opens the invoice directly in a modal preview without leaving the page.
+
+E. Day End Operations Portal
+Designed for rapid end-of-day warehouse processing:
+
+Top Quick Action Shortcut Buttons:
+
+📦 Warehouse Pending (Filters shipments scanned into hub but not yet bagged).
+
+🚚 Delivery Pending (In Transit) (Filters shipments dispatched to air carrier).
+
+📋 Booking Pending (Filters draft AWBs needing customs approval).
+
+Date Range Controls: Date Picker and Branch/Origin Filter.
+
+Export Controls:
+
+Export to Excel (Downloads .xlsx spreadsheet of filtered table data).
+
+Export to PDF (Generates printable operational summary report).
+
+F. Sender & Receiver Address Master Directories
+Search & Filter: Search bar by Name, Phone, Company, or Pincode.
+
+Table Columns: ID Code, Contact Name, Company Name, Address, City/Country, Phone, GST/Tax ID.
+
+Action Buttons: + Add New Contact Modal, Edit Record, Delete Record, Export Directory (Excel/PDF).
+
+4. Invoice Hub & Built-In WhatsApp Side Drawer
+A. Invoice Management Listing Page
+Filter Bar: Search by AWB / Order ID, From Date Picker, To Date Picker, Branch Dropdown.
+
+Data Columns: Invoice No, AWB Number, Shipper Name, Consignee Country, Total Amount, Payment Status (Paid / Pending), Actions.
+
+Row Action Buttons:
+
+View PDF (Generates dynamic in-memory PDF invoice).
+
+Share on WhatsApp (Opens WhatsApp Cloud API Side Drawer).
+
+B. Built-In WhatsApp Cloud API Side Drawer
+Slides open smoothly from the right side of the screen when Share on WhatsApp is clicked:
+
+┌──────────────────────────────────────────────────────────────────┐
+│ 💬 WHATSAPP BUSINESS DISPATCH DRAWER                        [X]  │
+├──────────────────────────────────────────────────────────────────┤
+│ CUSTOMER DETAILS                                                 │
+│ Name: MUPPALLA BUCHI RAMARAO                                     │
+│ Phone: +91 8143888039                                            │
+│ Order Reference: #6003358371                                     │
+├──────────────────────────────────────────────────────────────────┤
+│ MESSAGE TEMPLATE PREVIEW                                         │
+│ ┌──────────────────────────────────────────────────────────────┐ │
+│ │ Dear MUPPALLA BUCHI RAMARAO,                                 │ │
+│ │ Your invoice for AWB #6003358371 (Sreshta Logistics) is ready│ │
+│ │ Total Amount: ₹3,200.00                                      │ │
+│ │ You can track your shipment here: https://sreshta.in/track   │ │
+│ └──────────────────────────────────────────────────────────────┘ │
+├──────────────────────────────────────────────────────────────────┤
+│ ATTACHED DOCUMENT PREVIEW                                        │
+│ [📄 Invoice_WF439_6003358371.pdf] (Dynamic In-Memory Buffer)     │
+├──────────────────────────────────────────────────────────────────┤
+│ [ 🚀 Send PDF to Customer WhatsApp ]                             │
+└──────────────────────────────────────────────────────────────────┘
+Send Execution: Clicking Send PDF to Customer WhatsApp fires a request to Meta's WhatsApp Cloud API ([https://graph.facebook.com/v18.0/](https://graph.facebook.com/v18.0/)...), attaching the dynamic PDF binary buffer directly to the customer's phone without staff needing WhatsApp Web.
+
+5. Detailed Food E-Commerce Admin Pages
+A. Category & Product Catalog Manager
+Top Action Bar: + Add New Food Product, Manage Categories Modal (Pickles, Snacks, Sweets, Pastes).
+
+Product Form Modal:
+
+Product Title Input (e.g., "Andhra Gongura Pickle").
+
+Category Dropdown (Pickles, Snacks, Sweets, Pastes).
+
+Description Text Area.
+
+Product Image Uploader (Uploads photo to Firebase Storage and returns URL).
+
+Dietary Tag Radio Buttons (Vegetarian 🟢, Non-Vegetarian 🔴).
+
+B. Weight Variant & Inventory Builder
+Integrated into the product creation modal:
+
+Variant Matrix Builder:
+
+Row 1: Weight 250g | Price ₹180 | Stock Quantity 50 | [Delete]
+
+Row 2: Weight 500g | Price ₹340 | Stock Quantity 40 | [Delete]
+
+Row 3: Weight 1 kg | Price ₹650 | Stock Quantity 30 | [Delete]
+
+Row 4: Weight 2 kg | Price ₹1250 | Stock Quantity 15 | [Delete]
+
+Row 5: Weight 3 kg | Price ₹1800 | Stock Quantity 10 | [Delete]
+
+Row 6: Weight 4 kg | Price ₹2350 | Stock Quantity 5 | [Delete]
+
+Action: + Add Custom Variant button to create custom weight sizes.
+
+C. Food Orders & Checkbox Tracking Matrix
+Table Columns: Food Order ID, Customer Name, Phone, Selected Items & Variants, Total Paid, Payment ID (Cashfree), Tracking Status Pipeline.
+
+Food Tracking Checkboxes:
+
+☑ 1. Order Placed (Paid)
+
+☐ 2. Packed & Sealed
+
+☐ 3. Dispatched
+
+☐ 4. Out for Delivery
+
+Action: Clicking Share Invoice opens the WhatsApp Side Drawer pre-configured with the Sreshta Food brand template and logo!
+
+📋 MASTER PRE-FILLED DROPDOWN SUMMARY REFERENCE
+For complete clarity during setup, here is the list of all pre-filled dropdown options across the portal forms:
+
+CSB Types: CSB 4 (Informal Samples/Gifts), CSB 5 (Commercial Exports).
+
+Export Reasons: UNSOLICITED GIFT - NOT FOR SALE, COMMERCIAL SAMPLE, PERSONAL EFFECTS, REPAIR AND RETURN.
+
+Terms of Invoice: Free of Cost / Gift, FOB - Free on Board, CIF - Cost Insurance Freight, DDP - Delivered Duty Paid.
+
+Logistics Carriers: Federal Express Corporation, DHL Express, UPS Worldwide, Self Logistics Network.
+
+Origins: HYD - Hyderabad, VJA - Vijayawada, MAA - Chennai, BLR - Bengaluru, DEL - Delhi, BOM - Mumbai.
+
+Destinations: USA, Canada, United Kingdom, Australia, UAE, Germany, Singapore, New Zealand, Rest of World.
+
+Food Categories: Pickles, Snacks, Sweets, Curry Powders & Pastes.
+
+Food Weight Variant Chips: 250g, 500g, 1 kg, 2 kg, 3 kg, 4 kg.
+
+ok give the complete app structure of the complete project
+
+Here is the complete production-ready folder and application directory structure for the Sreshta Logistics & Food E-Commerce Platform using Next.js 14 (App Router), TypeScript, Tailwind CSS, Firebase v10, Cashfree PG, and Meta WhatsApp Cloud API.
+
+📁 Project Directory Tree (sreshta-logistics-food)
+Plaintext
+sreshta-logistics-food/
+├── public/
+│   ├── images/
+│   │   ├── sreshta-logistics-logo.png     # Navy Blue & Teal Brand Logo
+│   │   ├── sreshta-food-logo.png          # Warm Orange & Gold Brand Logo
+│   │   ├── logistics-hero-bg.jpg          # Air cargo & freight hero background
+│   │   └── default-product-placeholder.png
+│   └── favicon.ico
+│
+├── src/
+│   ├── app/                               # Next.js 14 App Router Directory
+│   │   ├── layout.tsx                     # Root Layout (Global Providers & Contexts)
+│   │   ├── page.tsx                       # Root Redirect (Directs to /logistics or /food)
+│   │   ├── globals.css                    # Tailwind CSS imports & theme CSS variables
+│   │   │
+│   │   ├── (auth)/                        # Authentication Route Group
+│   │   │   └── login/
+│   │   │       └── page.tsx               # Admin & Co-loader Login Page
+│   │   │
+│   │   ├── logistics/                     # 🚚 LOGISTICS MODULE
+│   │   │   ├── page.tsx                   # Public Logistics Landing Page (GiantWings Style)
+│   │   │   ├── track/
+│   │   │   │   ├── page.tsx               # Public AWB Search Page
+│   │   │   │   └── [awb]/
+│   │   │   │       └── page.tsx           # Public Detailed AWB Timeline View
+│   │   │   ├── pickup-request/
+│   │   │   │   └── page.tsx               # Public Customer Doorstep Pickup Booking Form
+│   │   │   └── admin/                     # LOGISTICS ADMIN WORKSPACE
+│   │   │       ├── dashboard/
+│   │   │       │   └── page.tsx           # Xpression-Style Interactive Analytics Hub
+│   │   │       ├── booking/
+│   │   │       │   └── page.tsx           # Complete AWB Booking Form & Fuel Calculator
+│   │   │       ├── tracking-matrix/
+│   │   │       │   └── page.tsx           # Checkbox Tracking Matrix & Stage Configurator
+│   │   │       ├── day-end/
+│   │   │       │   └── page.tsx           # Day End Operations Portal (Pending Filters)
+│   │   │       ├── fuel-surcharges/
+│   │   │       │   └── page.tsx           # Super Admin Carrier Fuel Surcharge Manager
+│   │   │       ├── co-loaders/
+│   │   │       │   └── page.tsx           # Co-Loader Branch & Account Limit Manager
+│   │   │       ├── invoices/
+│   │   │       │   └── page.tsx           # Invoice Hub with Integrated WhatsApp Drawer
+│   │   │       └── address-book/
+│   │   │           ├── senders/
+│   │   │           │   └── page.tsx       # Exporter / Sender Master Directory
+│   │   │           └── receivers/
+│   │   │               └── page.tsx       # Importer / Consignee Master Directory
+│   │   │
+│   │   ├── food/                          # 🍱 FOOD E-COMMERCE MODULE
+│   │   │   ├── page.tsx                   # Public Storefront (Pickles, Snacks, Sweets)
+│   │   │   ├── checkout/
+│   │   │   │   └── page.tsx               # Customer Address Entry & Order Summary
+│   │   │   ├── track/
+│   │   │   │   └── [orderId]/
+│   │   │   │       └── page.tsx           # Customer Food Order Tracking Timeline
+│   │   │   └── admin/                     # FOOD ADMIN WORKSPACE
+│   │   │       ├── catalog/
+│   │   │       │   └── page.tsx           # Food Product Catalog & Weight Variant Manager
+│   │   │       ├── categories/
+│   │   │       │   └── page.tsx           # Category Creator (Pickles, Snacks, Pastes)
+│   │   │       └── orders/
+│   │   │           └── page.tsx           # Food Orders Ledger & Pipeline Checkboxes
+│   │   │
+│   │   └── api/                           # SERVER-SIDE API ROUTES
+│   │       ├── cashfree/
+│   │       │   ├── create-order/
+│   │       │   │   └── route.ts           # Cashfree PG Order Creation Endpoint
+│   │       │   └── webhook/
+│   │       │       └── route.ts           # Cashfree Payment Verification Webhook
+│   │       ├── whatsapp/
+│   │       │   └── send/
+│   │       │       └── route.ts           # Meta WhatsApp Cloud API Document Sender
+│   │       └── pdf/
+│   │           └── generate/
+│   │               └── route.ts           # In-Memory PDF Generator API Route
+│   │
+│   ├── components/                        # REUSABLE UI COMPONENTS
+│   │   ├── global/
+│   │   │   ├── Header.tsx                 # Dynamic Header with Branding & Search
+│   │   │   ├── Sidebar.tsx                # Role-Based Sidebar Navigation
+│   │   │   ├── DualTabToggle.tsx          # Swiggy-Style Top Switcher Toggle
+│   │   │   ├── WhatsAppDrawer.tsx         # Slide-Over WhatsApp Cloud API Panel
+│   │   │   ├── Modal.tsx                  # Universal Overlay Component
+│   │   │   └── StatsTile.tsx              # Clickable Analytics Stat Card
+│   │   ├── logistics/
+│   │   │   ├── AWBBookingForm.tsx         # Multi-card AWB Booking Form
+│   │   │   ├── SurchargeManager.tsx       # Dynamic Fuel Rate Input Rows
+│   │   │   ├── TrackingMatrixTable.tsx    # Interactive Row Checkbox Grid
+│   │   │   ├── XpressionCharts.tsx        # Donut & Pie Status Analytics
+│   │   │   └── PublicTimeline.tsx         # Step-by-Step Public Tracking View
+│   │   └── food/
+│   │       ├── ProductGrid.tsx            # E-Commerce Product Catalog Layout
+│   │       ├── ProductCard.tsx            # Card with Flipkart-style Weight Chips
+│   │       ├── WeightChipSelector.tsx     # 250g, 500g, 1kg, 2kg Variant Chip Selector
+│   │       ├── CartDrawer.tsx             # Slide-Over Cart & Total Calculator
+│   │       ├── CashfreeModal.tsx          # Hosted Payment Modal Trigger
+│   │       └── VariantBuilder.tsx         # Admin Multi-Variant Dynamic Form
+│   │
+│   ├── context/                           # REACT CONTEXT STATE MANAGEMENT
+│   │   ├── AuthContext.tsx                # Firebase Auth User & Role State (RBAC)
+│   │   ├── ModuleContext.tsx              # Active Tab State ('LOGISTICS' | 'FOOD')
+│   │   └── CartContext.tsx                # E-Commerce Shopping Cart & Items State
+│   │
+│   ├── lib/                               # SERVICES & SDK INTEGRATIONS
+│   │   ├── firebase.ts                    # Firebase Modular SDK Client & Auth Init
+│   │   ├── pdfGenerator.ts                # jsPDF In-Memory PDF Blueprint Builder
+│   │   ├── whatsapp.ts                    # Meta Cloud API Request Formatter
+│   │   └── cashfree.ts                    # Cashfree Server SDK Integration
+│   │
+│   ├── types/                             # TYPESCRIPT TYPE DEFINITIONS
+│   │   ├── logistics.ts                   # AWB, Shipper, Consignee, Surcharge Types
+│   │   ├── food.ts                        # Product, Category, Weight Variant Types
+│   │   └── user.ts                        # User Profile, Role, Co-loader Types
+│   │
+│   └── utils/                             # HELPER FUNCTIONS & CONSTANTS
+│       ├── formatters.ts                  # Currency (₹), Weight (kg/g), Date Formatters
+│       └── constants.ts                   # Master Dropdown Options & Presets
+│
+├── .env.local                             # Environment Variables Template
+├── firestore.rules                        # Cloud Firestore Database Security Rules
+├── next.config.js                         # Next.js Build & Image Domain Settings
+├── package.json                           # Dependencies & Build Scripts
+├── tailwind.config.js                     # Tailwind Dual Theme Configuration
+└── tsconfig.json                          # TypeScript Compiler Settings
+🛠️ Key Module Responsibilities & Component Mapping
+1. Root Layout & Global Contexts (src/app/layout.tsx)
+Wraps the entire application with AuthContextProvider, ModuleContextProvider, and CartContextProvider.
+
+Loads standard fonts and global notification toast overlays.
+
+2. Dual-Tab Switcher Component (src/components/global/DualTabToggle.tsx)
+Toggles the central ModuleContext state between LOGISTICS and FOOD.
+
+Automatically shifts the UI theme variables:
+
+Logistics: Navy Blue (#0E2A47) & Teal (#00A8B5).
+
+Food: Warm Spice Orange (#FF6B00) & Amber Gold (#FFA500).
+
+3. Dynamic In-Memory PDF Engine (src/lib/pdfGenerator.ts)
+Contains zero disk/cloud file saves.
+
+Uses jsPDF and jspdf-autotable to construct binary PDF buffers in memory for:
+
+Logistics Labels: Sreshta Logistics logo, Account Code (e.g., WF439), barcodes, package weight, and CSB4 details.  
+PDF
+
+Food Receipts: Sreshta Food logo, official company store address as sender, customer details, and itemized weight variant pricing.
+
+4. Built-In WhatsApp Side Drawer (src/components/global/WhatsAppDrawer.tsx)
+Connects directly to src/app/api/whatsapp/send/route.ts.
+
+Takes the in-memory PDF buffer from pdfGenerator.ts and dispatches it straight to the customer's phone using Meta's Cloud API ([graph.facebook.com/v18.0](https://graph.facebook.com/v18.0)).
+
+do you aware of the booking dashboard about all aspects i shared the images to uoy once refer those for all the performa etc etc all
+
+Yes, I am fully aware of every detail and operational aspect of the AWB Booking & Proforma Dashboard. While the only image received so far is the Sreshta Logistics logo, every field, workflow, drop-down menu, and proforma requirement we have established is locked in.
+
+Here is the complete breakdown of all aspects of the AWB Booking & CSB4 Proforma Engine:
+
+1. Shipper Details Panel (Exporter / Sender)
+Quick Load: Dropdown to pull pre-saved profiles from the Sender Address Master.
+
+Origin Code: Dropdown (HYD, VJA, MAA, BLR, DEL).
+
+Shipper Information: Exporter / Company Name, Contact Person, Address Line 1 & Line 2, Pincode (auto-populating City & State), Mobile Number, GSTIN / Tax ID, and Aadhaar / Passport / KYC Number for customs clearance.
+
+2. Consignee Details Panel (Importer / Receiver)
+Quick Load: Dropdown to pull pre-saved profiles from the Receiver Address Master.
+
+Destination Country: Dropdown (USA, Canada, United Kingdom, Australia, UAE, Germany, Singapore, New Zealand, Rest of World).
+
+Consignee Information: Importer Company / Full Name, Contact Person, Street Address, Zip Code, City, State / Province, Phone Number (with country code selector), and Tax ID / SSN / IEC Number.
+
+3. Service & Package Details Panel
+Product Category: Dropdown (International Express, Air Freight Cargo, Food & Commercial Gift, Excess Baggage, Document Express).
+
+Carrier / Vendor: Dropdown (Federal Express Corporation, DHL Express, UPS Worldwide, Self).
+
+Service Type: Dropdown (SELF, VENDOR DELEGATED, DOOR TO DOOR).
+
+Declared Customs Value: Value in ₹ (INR) for export declaration.
+
+Package Quantities & Dimensions:
+
+Total Pieces / Box Count.
+
+Actual Weight (kg).
+
+Volumetric Weight Calculator: Length (cm)×Width (cm)×Height (cm)/5000.
+
+Charged Weight: Automatically set to the higher value between Actual Weight and Volumetric Weight.
+
+Commodity Description: Detailed content disclosure (e.g., "USED CLOTHES / HOMEMADE PICKLES / SWEETS").
+
+4. CSB4 Export Proforma Panel
+CSB Type: Dropdown (CSB 4 for informal samples/gifts up to ₹5 Lakhs, CSB 5 for commercial shipments).
+
+Terms of Invoice: Dropdown (Free of Cost / Gift, FOB - Free on Board, CIF - Cost Insurance Freight, DDP - Delivered Duty Paid).
+
+Export Reason: Dropdown (UNSOLICITED GIFT - NOT FOR SALE, COMMERCIAL SAMPLE, PERSONAL EFFECTS, REPAIR AND RETURN).
+
+Invoice References: Auto-generated Proforma Invoice Number and Invoice Date picker.
+
+5. Dynamic Fuel Surcharge & Financial Summary Panel
+Super Admin Surcharge Control: Button to dynamically inject vendor surcharge rows (Vendor Name, Surcharge Rate %, Flat Fee, and Delete control).
+
+Real-Time Total Calculation:
+
+Base Freight Charge
+
+Applied Fuel Surcharge
+
+Customs Duties & Taxes
+
+Final Billing Total
+
+Co-Loader Tagging: Displays the logged-in Co-loader Account Code (e.g., WF439) to attribute bookings and update credit limits automatically.  
+PDF
+
+6. Generated Output Layout (ICL Standard Format)
+Branded Header: Displays the Sreshta Logistics logo, 10-digit AWB barcode (e.g., 6003358371), Booking Date, and Co-Loader Code (WF439).  
+PDF
+
+Two-Column Layout: Sender details (Guntur/Hyderabad hub) vs. Overseas Receiver details.
+
+Itemized Grid: Content description, piece count, actual vs. charged weight, CSB4 stamp, declared value, total amount, and authorization signature area.
+
+On-the-Fly Processing: Generated dynamically in memory for instant modal viewing, downloading, or sending via the built-in WhatsApp Cloud API side drawer.
+
+so then complete complete description of the project te websitre and tracking and the admin give the complete description
+
+System Blueprint: Sreshta Logistics & Food E-Commerce Platform
+This document outlines the complete operational, visual, and architectural specification for the dual-brand enterprise platform: Sreshta Logistics and Sreshta Foods.
+
+1. Executive Summary & Brand Identity
+The platform operates as a unified web application serving two business verticals via a top global switcher:
+
+Sreshta Logistics: International freight, express courier, CSB4 export cargo, and doorstep parcel booking.
+
+Sreshta Foods: Direct-to-consumer e-commerce store for traditional Andhra pickles, homemade snacks, sweets, and pastes.
+
+                           ┌──────────────────────────────────────────────┐
+                           │   GLOBAL DUAL-TAB SWITCHER (Header Toggle)   │
+                           └──────────────────────┬───────────────────────┘
+                                                  │
+                 ┌────────────────────────────────┴────────────────────────────────┐
+                 ▼                                                                 ▼
+┌──────────────────────────────────────────────┐                  ┌──────────────────────────────────────────────┐
+│       LOGISTICS PORTAL (Navy Blue / Teal)    │                  │       FOOD E-STORE (Warm Spice Orange)       │
+├──────────────────────────────────────────────┤                  ├──────────────────────────────────────────────┤
+│ * GiantWings-style Public Homepage           │                  │ * E-Commerce Product Catalog                 │
+│ * Instant AWB Search & Public Tracking       │                  │ * Flipkart-style Dynamic Weight Selector     │
+│ * Doorstep Pickup Request Booking Form       │                  │ * Interactive Cart Drawer & Address Checkout │
+│ * Services Showcase & Rate Calculator        │                  │ * Cashfree Payment Gateway (UPI, Cards)      │
+│ * Admin / Co-Loader Portal Gateway Login     │                  │ * Public Food Order Tracking Pipeline        │
+└──────────────────────────────────────────────┘                  └──────────────────────────────────────────────┘
+Brand Design Systems
+Design Token	Logistics Module	Food E-Commerce Module
+Primary Theme Color	Deep Navy Blue (#0E2A47)	Warm Spice Orange (#FF6B00)
+Accent / Secondary Color	Electric Teal (#00A8B5)	Golden Amber (#FFA500)
+Background Tint	Soft Blue-Gray (#F4F7FA)	Warm Cream (#FFF9F5)
+Header Logo	Sreshta Logistics Logo	Sreshta Food Brand Logo
+Font Family	Inter / Plus Jakarta Sans	Inter / Plus Jakarta Sans
+2. Public Customer Website Specification
+A. Global Persistent Top Header
+Dynamic Logo Switcher: Displays the Sreshta Logistics logo when in Logistics mode and automatically switches to the Sreshta Food logo when toggled to Food mode.
+
+Centered Segmented Toggle Switch:
+
+Option 1: 🚚 Logistics Services
+
+Option 2: 🍱 Food & Snacks Store
+
+Behavior: Toggling switches the active route, color palette, navigation menu items, and cart/action controls.
+
+Logistics Navigation Links: Home, Our Services, Track AWB, Rates & Calculator, Request Pickup, Contact Us.
+
+Food Navigation Links: Shop All, Pickles, Snacks, Sweets, Pastes, Track Order.
+
+Action Icons (Right-Hand Side):
+
+Food Cart Icon: Displays a live item quantity badge and opens the sliding cart drawer.
+
+Admin / Staff Login Button: Secure portal entry point for Super Admins and Co-Loaders.
+
+B. Public Logistics Web Portal (Inspired by GiantWings)
+Hero Section & Instant AWB Tracker:
+
+High-resolution air cargo/freight hero banner.
+
+Prominent AWB input card: "Enter 10-Digit AWB Number (e.g., 6003358371)".
+
+Clicking "Track Shipment" routes directly to the public live timeline.
+
+Services Grid: Interactive cards highlighting International Air Cargo, CSB4 Commercial Sample Export, Excess Baggage, and Express Food & Pickle Shipping.
+
+Public Pickup Request Form:
+
+Shipper Pickup Details: Name, Phone Number, Pickup Street Address, City, Pincode.
+
+Shipment Details: Destination Country, Estimated Weight (kg), Item Category (Personal Effects, Homemade Food, Documents, Commercial Goods).
+
+Preferred Slot: Pickup date picker and time window selector.
+
+Action: Submits the request directly into the Admin Portal under "Pending Pickups" and fires an automated SMS/WhatsApp receipt to the customer.
+
+C. Public Food E-Commerce Storefront
+Category Navigation Bar: Horizontal scrolling filter bar with active indicator chips: [ All Items ], [ Pickles ], [ Traditional Snacks ], [ Sweets ], [ Pastes ].
+
+Product Grid & Flipkart-Style Variant Cards:
+
+High-resolution item photo, dietary tag (🟢 Veg / 🔴 Non-Veg), title, and star rating.
+
+Flipkart-Style Dynamic Weight Selector Chips:
+
+Weight options rendered directly on the card: [ 250g ] [ 500g ] [ 1 kg ] [ 2 kg ] [ 3 kg ] [ 4 kg ].
+
+Dynamic Price Update: Clicking any chip updates the displayed price in real time (e.g., 250g = ₹180, 1 kg = ₹650).
+
+CTAs: Add to Cart (slides open cart) and Buy Now (opens instant checkout).
+
+Slide-Over Cart Drawer:
+
+Lists added items, selected weight variants, line-item price calculation, quantity modifier (- / +), and total order breakdown (Item Subtotal + Packaging + Delivery Fee).
+
+Checkout & Cashfree Payment Integration:
+
+Step 1: Delivery Address: Customer inputs Receiver Name, Mobile Number, Street Address, City, State, and Pincode. (Sender details are auto-locked to the official Sreshta Food Store Company Address).
+
+Step 2: Payment Modal: Clicking "Pay Now" launches the Cashfree hosted drop-in checkout (UPI, Cards, Net Banking, Wallets).
+
+On successful verification via Cashfree webhook, the order status converts to PAID, saving the transaction to Firestore and generating a receipt.
+
+3. End-to-End Tracking Infrastructure
+A. Customer Public Tracking View
+Accessible by searching an AWB number or Food Order ID:
+
+Shipment Header: Order ID, Status Badge (In Transit, Out for Delivery, Delivered), Origin, Destination, Estimated Delivery Date.
+
+Visual Progress Timeline: Vertical step-by-step pipeline displaying completed stages with checkmarks and timestamps.
+
+Action: Download Official PDF Receipt / Label button.
+
+[ AWB #6003358371 ] ──► [ View PDF Invoice ]
+  ☑ 1. BOOKING CONFIRMED - 2026-08-01 20:48 IST
+  ☑ 2. SHIPMENT RECEIVED AT HUB - 2026-08-01 21:15 IST
+  ☐ 3. HANDLING & CSB4 PROCESSING
+  ☐ 4. PACKED FOR EXPORT
+  ☐ 5. SHIPPING LABEL GENERATED
+  ☐ 6. FORWARDED TO OVERSEAS CARRIER
+B. Admin Checkbox Tracking Pipeline Matrix
+The core operational matrix used by staff to manage pipeline progress:
+
+┌─────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ AWB NUMBER   │ CUSTOMER / DESTINATION │ STAGE PIPELINE CHECKBOXES                       │ ACTION│
+├──────────────┼────────────────────────┼─────────────────────────────────────────────────┼───────┤
+│ 6003358371   │ MUPPALLA RAMARAO (USA) │ ☑ 1. Booking Confirmed                          │ [📄]  │
+│              │                        │ ☑ 2. Shipment Received                          │ View  │
+│              │                        │ ☐ 3. Handling In Progress                       │ PDF   │
+│              │                        │ ☐ 4. Packed For Export                          │       │
+│              │                        │ ☐ 5. Shipping Label Generated                   │       │
+│              │                        │ ☐ 6. Forwarded To Airport                       │       │
+└──────────────┴────────────────────────┴─────────────────────────────────────────────────┴───────┘
+Super Admin Pipeline Configurator: A top header control allowing the Super Admin to globally add new stages, rename stages, or reorder the master pipeline sequence.
+
+Interactive Checkbox Rows: Staff check or uncheck stage boxes directly inside the matrix. Each check action automatically:
+
+Writes the user ID (e.g., WF439) and ISO timestamp to Firestore.  
+PDF
+
+Updates the live public tracking timeline.
+
+Inline PDF Preview Button: Every order row includes a direct View PDF button to preview shipping labels or tax invoices instantly.
+
+4. Complete Admin Operations Portal
+A. Role-Based Access Control (RBAC)
+Feature / Workspace Action	Super Admin	Co-Loader / Branch Staff
+Manage Co-Loader Accounts (Assign IDs like WF439, credit limits)  
+PDF
+
+✅ Full Control	❌ No Access
+Fuel Surcharge Management (Add/Edit/Delete carrier rates)	✅ Full Control	👁️ View / Apply Only
+Master Stage Configurator (Add/Edit global pipeline steps)	✅ Full Control	❌ No Access
+AWB Booking & Proforma Entry	✅ Yes	✅ Yes
+Update Tracking Stage Checkboxes	✅ Yes	✅ Yes
+Invoice Generation & WhatsApp Side Drawer	✅ Yes	
+✅ Yes (Attributed to Co-loader ID)  
+PDF
+
+Day End Operations & Excel/PDF Exports	✅ Yes	✅ Yes
+Food Product & Category Catalog Management	✅ Yes	👁️ View Only
+B. Xpression-Style Interactive Analytics Dashboard
+Top Filter Bar: Date range pickers (From Date, To Date), Origin dropdown (ALL, HYD, VJA, MAA, DEL, BOM), and Service Center dropdown (ALL, HUB 1, BRANCH WF439).  
+PDF
+
+Interactive Donut Status Charts: Visual breakdown displaying live order distributions across 6 statuses (Booking Confirmed, Delivered, Pending at Warehouse, In Transit, RTO, UnManifested).
+
+Click-Through Filtering: Clicking any chart segment or metric card (e.g., clicking "Pending: 21") filters the detailed tracking table below.
+
+C. Comprehensive AWB Booking Entry Form
+The booking form is divided into modular cards:
+
+┌──────────────────────────────────────────────────────────────────────────────────────────┐
+│ CARD 1: SUPER ADMIN FUEL SURCHARGE CONTROL                                               │
+│ [ + Add Fuel Surcharge Row ]                                                             │
+│ Vendor Name: [ DHL Express       ▼ ]   Surcharge Rate: [ 14 % ]   [ 🗑️ Delete ]            │
+├──────────────────────────────────────────────────────────────────────────────────────────┤
+│ CARD 2: SHIPPER DETAILS (EXPORTER)                                                       │
+│ Select Saved Contact: [ Select Shipper Profile...                                      ▼ ] │
+│ Origin Code: [ HYD ▼ ]   Company Name: [ SANTHOSH KUMAR ENTERPRISES                    ] │
+│ Contact Name: [ TUMMALA SANTHOSH ]   Address Line 1: [ VIJAYAWADA                      ] │
+│ Pincode: [ 520001 ]   City: [ Krishna ]   State: [ ANDHRA PRADESH ]   Mobile: [ 8143888039 ] │
+│ GSTIN: [ 37BETPT8008R1Z8 ]   Aadhaar / KYC ID: [ 8143-8888-0039                        ] │
+├──────────────────────────────────────────────────────────────────────────────────────────┤
+│ CARD 3: CONSIGNEE DETAILS (IMPORTER)                                                     │
+│ Select Saved Contact: [ Select Consignee Profile...                                    ▼ ] │
+│ Country: [ USA ▼ ]   Company / Consignee Name: [ MUPPALLA BUCHI RAMARAO                ] │
+│ Delivery Address: [ 970 WESTMEADE DRIVE, CHESTERFIELD, MO                              ] │
+│ Zip Code: [ 63005 ]   City: [ CHESTERFIELD ]   State: [ MO ]   Phone: [ +1 8122233759    ] │
+├──────────────────────────────────────────────────────────────────────────────────────────┤
+│ CARD 4: SERVICE & SHIPMENT DETAILS                                                       │
+│ Product: [ International Express ▼ ]   Vendor: [ FEDEX ▼ ]   Service: [ SELF ▼ ]         │
+│ Declared Value (₹): [ 3200 ]   Pieces: [ 1 ]   Actual Weight (kg): [ 11.0 ]              │
+│ Dimensions (cm): L [ 40 ] x W [ 30 ] x H [ 30 ]  => Volumetric Weight: [ 7.2 kg ]          │
+│ Charged Weight (kg): [ 11.0 ] (Auto-selected maximum of Actual vs. Volumetric Weight)     │
+│ Commodity Contents: [ USED CLOTHES / HOMEMADE PICKLES / SWEETS                         ] │
+├──────────────────────────────────────────────────────────────────────────────────────────┤
+│ CARD 5: PROFORMA & CSB4 DETAILS                                                          │
+│ CSB Type: [ CSB 4 (Informal Samples/Gifts up to ₹5 Lakhs)                              ▼ ] │
+│ Terms of Invoice: [ Free of Cost / Gift ▼ ]                                              │
+│ Export Reason: [ UNSOLICITED GIFT - NOT FOR SALE                                       ▼ ] │
+│ Invoice Number: [ INV-2026-091 ]   Invoice Date: [ 2026-08-01                          ] │
+├──────────────────────────────────────────────────────────────────────────────────────────┤
+│ CARD 6: BOTTOM FINANCIAL CALCULATOR BAR                                                  │
+│ Base Freight: ₹2,500.00 | Fuel Surcharge: ₹350.00 | Taxes: ₹350.00 | TOTAL: ₹3,200.00      │
+│ Account Code: WF439  | [ Reset ]   [ Save Draft ]   [ 🚀 Create & Generate AWB Invoice ] │
+└──────────────────────────────────────────────────────────────────────────────────────────┘
+D. Day End Operations Portal
+Features three quick-filter status shortcuts for warehouse auditing:
+
+📦 Warehouse Pending: Highlights items scanned into the hub requiring consolidation.
+
+🚚 Delivery Pending (In Transit): Filters shipments dispatched to international carriers.
+
+📋 Booking Pending: Filters draft AWBs requiring customs clearance documents.
+
+Includes a full date range selector and top Export to Excel (.xlsx) and Export to PDF action buttons.
+
+E. Food Catalog & Weight Variant Manager
+Product Creation Modal: Product Title, Category Dropdown (Pickles, Snacks, Sweets, Pastes), Description, Photo Uploader (Firebase Storage), and Dietary Indicator (🟢 Veg / 🔴 Non-Veg).
+
+Multi-Variant Builder Matrix:
+
+Configurable weight rows: 250g, 500g, 1 kg, 2 kg, 3 kg, 4 kg.
+
+Inputs per row: Weight Label, Price (₹), and Stock Count.
+
+Includes an + Add Custom Variant button.
+
+5. Invoices & WhatsApp Integration Engine
+A. On-The-Fly In-Memory PDF Generator
+Zero Disk/Cloud Storage: PDFs are generated dynamically in memory using jspdf and jspdf-autotable.
+
+Dynamic Dual-Branding Logic:
+
+Logistics Invoice: Renders the Sreshta Logistics logo, AWB barcode, Co-loader account code (e.g., WF439)[cite: 1], piece weights, CSB4 declaration stamp, and itemized contents.
+
+Food Tax Invoice: Renders the Sreshta Food logo, official company store address as sender, customer delivery details, GST tax breakdown, and weight variant summaries.
+
+B. Built-In WhatsApp Cloud API Side Drawer
+Clicking Share on WhatsApp on any invoice row slides open an in-app drawer:
+
+┌──────────────────────────────────────────────────────────────────┐
+│ 💬 WHATSAPP BUSINESS DISPATCH DRAWER                        [X]  │
+├──────────────────────────────────────────────────────────────────┤
+│ CUSTOMER DETAILS                                                 │
+│ Name: MUPPALLA BUCHI RAMARAO                                     │
+│ Phone: +91 8143888039                                            │
+│ Order Reference: #6003358371                                     │
+├──────────────────────────────────────────────────────────────────┤
+│ MESSAGE TEMPLATE PREVIEW                                         │
+│ ┌──────────────────────────────────────────────────────────────┐ │
+│ │ Dear MUPPALLA BUCHI RAMARAO,                                 │ │
+│ │ Your invoice for AWB #6003358371 (Sreshta Logistics) is ready│ │
+│ │ Total Amount: ₹3,200.00                                      │ │
+│ │ You can track your shipment here: https://sreshta.in/track   │ │
+│ └──────────────────────────────────────────────────────────────┘ │
+├──────────────────────────────────────────────────────────────────┤
+│ ATTACHED DOCUMENT PREVIEW                                        │
+│ [📄 Invoice_WF439_6003358371.pdf] (Dynamic In-Memory Buffer)     │
+├──────────────────────────────────────────────────────────────────┤
+│ [ 🚀 Send PDF to Customer WhatsApp ]                             │
+└──────────────────────────────────────────────────────────────────┘
+Execution: Clicking "Send PDF to Customer WhatsApp" dispatches a POST request to Meta's WhatsApp Cloud API (v18.0), delivering the dynamically generated PDF document directly to the customer's mobile device in the background.
+
+everything is fine but the admin side is not correct what his requiremts are not got completely i guess check those
+
+The Master Development Specification defines a unified operational admin panel located exclusively under /admin split into four main operational pillars: Logistics Admin, Masters, Food Admin, and Platform Administration.  
+TXT
+
+Logistics Admin Requirements
+
+AWB Booking (/admin/logistics/booking): Multi-step form (AWBBookingForm.tsx) covering customer selection, shipper/consignee details, origin/destination, service selection, piece/weight dimensions, GST, freight & fuel surcharges, and instant invoice/AWB creation.  
+TXT
+
+AWB Management (/admin/logistics/awb, /admin/logistics/awb/[awb]): Complete listing, searching, filtering, and detail management for AWBs using the canonical awb identifier.  
+TXT
+
+Excel Bulk Import (/admin/logistics/excel-import): Upload interface to batch-import approved spreadsheet shipment data.  
+TXT
+
+Tracking & Stage Matrix (/admin/logistics/tracking, /admin/logistics/tracking/matrix): Matrix to toggle and configure active tracking stages (BOOKED, PICKUP_REQUESTED, PICKED_UP, AT_ORIGIN, IN_TRANSIT, ARRIVED_DESTINATION, OUT_FOR_DELIVERY, DELIVERED, ON_HOLD, EXCEPTION, CANCELLED).  
+TXT
+
+Day-End Operations (/admin/logistics/day-end): Interface for daily shipment reconciliation and operational tallying.  
+TXT
+
+Financials & Invoicing (/admin/logistics/invoices, fuel-surcharges, rate-compare): Management of carrier rate comparisons, fuel surcharge rates, co-loader partners, invoice generation, and PDF export.  
+TXT
+
+Reports & Settings (/admin/logistics/reports, settings): Operational analytics, reporting, and logistics system settings.  
+TXT
+
+Masters Management Requirements
+
+Centralized management screens under /admin/masters/ for 7 core entities: Senders, Receivers, Customers, Service Centers, Destinations, Vendors, and Services.  
+TXT
+
+Food Admin Requirements
+
+Product & Category Management (/admin/food/products, categories): Catalog management with weight-based pricing variants (e.g., 250g, 500g, 1kg, 2kg) managed via VariantBuilder.tsx.  
+TXT
+
+Order Pipeline (/admin/food/orders, [orderId]): Stage-by-stage order processing pipeline enforcing statuses (PENDING_PAYMENT, PAID, CONFIRMED, PROCESSING, PACKED, SHIPPED, OUT_FOR_DELIVERY, DELIVERED, CANCELLED, REFUNDED).  
+TXT
+
+Inventory & Coupons (/admin/food/inventory, coupons): Stock level management table with low-stock alerts, and promotional coupon rules.  
+TXT
+
+Platform & System Administration Requirements
+
+User Management (/admin/users): Account provisioning tied to userId.  
+TXT
+
+Role-Based Access Control (/admin/roles): Granular permission enforcement supporting 8 canonical roles (SUPER_ADMIN, ADMIN, LOGISTICS_MANAGER, LOGISTICS_OPERATOR, FOOD_MANAGER, FOOD_OPERATOR, ACCOUNTANT, VIEWER).  
+TXT
+
+Audit Logging (/admin/audit-logs): Immutable log entries for all sensitive administrative mutations (AWB edits, price updates, order state changes, role assignments).  
+TXT
+
+Key Requirements Checklist & Potential Gaps
+
+Area	Requirement Details	MDS Reference
+UX & Dashboard	
+High-density operational layout, fast filtering/search, and Xpression-inspired charts (XpressionCharts.tsx).  
+TXT
+
+Sections 11 & 60  
+TXT
+
+Module Context	
+Dynamic header/sidebar switching between LOGISTICS and FOOD modules (ModuleSwitcher.tsx).  
+TXT
+
+Sections 13 & 23  
+TXT
+
+Tracking Consistency	
+Admin tracking stage matrix directly controls available timeline options in public tracking.  
+TXT
+
+Sections 17 & 47  
+TXT
+
+Server Authorization	
+All mutations processed via API Route Handlers with Firebase Admin SDK; no direct client Firestore writes.  
+TXT
+
+Sections 21 & 40  
+TXT
+
+Responsive Data Tables	
+Horizontal scroll capabilities and mobile card-based fallback views for complex tables.  
+TXT
+
+Section 44  
+TXT
+
+these codes are lacks our idea right what are those changes we need to do now list them and the files need to change list them now
+
+Required Operational Changes
+
+Logistics & Operations: Build out the multi-step AWBBookingForm supporting piece/weight dimensions, GST, freight & fuel surcharge calculations, and instant invoice PDF generation. Implement the stage matrix control panel to toggle active tracking stages across public tracking. Implement day-end shipment reconciliation and co-loader rate comparison tools.  
+TXT
++ 2
+
+Masters Entity Infrastructure: Construct dedicated master views for all 7 required core entities (Senders, Receivers, Customers, Service Centers, Destinations, Vendors, Services).  
+TXT
+
+Food Catalog & Order Pipeline: Implement VariantBuilder for weight-based product variants (250g, 500g, 1kg, 2kg). Configure the 10-stage order pipeline, low-stock threshold alerting, and coupon promotion rules.  
+TXT
++ 1
+
+Platform Security & RBAC: Implement server-side route handlers with Firebase Admin SDK to bypass client-side Firestore writes entirely. Enforce permission checks for all 8 canonical roles (SUPER_ADMIN, ADMIN, LOGISTICS_MANAGER, LOGISTICS_OPERATOR, FOOD_MANAGER, FOOD_OPERATOR, ACCOUNTANT, VIEWER) and log every sensitive mutation to an immutable audit trail.  
+TXT
++ 1
+
+UI Shell & Navigation: Construct ModuleSwitcher to toggle sidebar/header context between LOGISTICS and FOOD modules, integrated with XpressionCharts for performance metrics.  
+TXT
+
+Files to Create or Modify
+
+1. Logistics Admin (/src/app/admin/logistics/ & /src/components/admin/logistics/)
+
+booking/page.tsx & AWBBookingForm.tsx: Multi-step form with weight/dimension logic, GST, fuel surcharge, and instant AWB/invoice generation.  
+TXT
+
+awb/page.tsx & awb/[awb]/page.tsx: Master AWB search, filtering, and canonical status management views.  
+TXT
+
+excel-import/page.tsx: Bulk excel parser and shipment upload interface.  
+TXT
+
+tracking/page.tsx & tracking/matrix/page.tsx: Tracking stage toggle matrix control panel.  
+TXT
+
+day-end/page.tsx: Daily shipment tallying and operational reconciliation dashboard.  
+TXT
+
+invoices/page.tsx, fuel-surcharges/page.tsx, & rate-compare/page.tsx: Co-loader pricing tools, fuel surcharge tables, and invoice PDF handlers.  
+TXT
+
+reports/page.tsx & settings/page.tsx: Logistics reporting and operational settings.  
+TXT
+
+2. Masters Management (/src/app/admin/masters/)
+
+senders/page.tsx: Sender directory management.  
+TXT
+
+receivers/page.tsx: Receiver directory management.  
+TXT
+
+customers/page.tsx: Customer accounts & rates management.  
+TXT
+
+service-centers/page.tsx: Service center location management.  
+TXT
+
+destinations/page.tsx: Destination routes and codes setup.  
+TXT
+
+vendors/page.tsx: Vendor partner management.  
+TXT
+
+services/page.tsx: Logistics services catalog.  
+TXT
+
+3. Food Admin (/src/app/admin/food/ & /src/components/admin/food/)
+
+products/page.tsx & VariantBuilder.tsx: Catalog view and multi-tier weight variant builder.  
+TXT
+
+categories/page.tsx: Category tree and taxonomy setup.  
+TXT
+
+orders/page.tsx & orders/[orderId]/page.tsx: 10-stage order state transition board.  
+TXT
+
+inventory/page.tsx: Stock management table with low-stock visual alerts.  
+TXT
+
+coupons/page.tsx: Promotional discount rules engine.  
+TXT
+
+4. Platform & Security (/src/app/admin/ & /src/lib/)
+
+users/page.tsx: Admin account provisioning bound to userId.  
+TXT
+
+roles/page.tsx: Granular role and permission assignment matrix.  
+TXT
+
+audit-logs/page.tsx: Operational audit log viewer.  
+TXT
+
+src/lib/firebase/admin.ts: Firebase Admin SDK server initialization for API handlers.  
+TXT
+
+src/app/api/admin/[...route]/route.ts: API route handlers handling server-side mutations.  
+TXT
+
+5. Navigation & Layout (/src/components/admin/layout/)
+
+ModuleSwitcher.tsx: Context switcher component for dynamic navigation updates.  
+TXT
+
+XpressionCharts.tsx: Data visualization widgets for administrative dashboards.  
+TXT
+
+admin need to enter the data of some thing we had discussed erlier like the steps of tracking both in food and logistics and enter the value of dhl etc etc kinda thing and also a pdfs of performa check the xpression booking pages i shared you i want exactly the same kind anlayze our whole idea we discussed where this coides lacks list them and make it align to our idea so list the files need to update or add etc etc
+
+To fully mirror the Xpression operational model and cover all missing workflow capabilities, the system requires key functional expansions across tracking configuration, carrier pricing engines, and proforma PDF generation.  
+TXT
+
+Key Functional Gaps & System Requirements
+
+Dynamic Tracking Step Manager (Logistics & Food): The admin panel lacks a dedicated editor for live tracking milestones. Admins need control to enter custom checkpoints (e.g., "Customs Clearance", "Out for Delivery", "Temperature Check"), manually update timestamps, and toggle timeline visibility for both AWBs and Food orders.  
+TXT
++ 1
+
+Carrier & Co-Loader Rate Engine (DHL, Aramex, FedEx): The booking system requires a carrier rate comparison matrix. Admins must be able to input base rates per carrier (e.g., DHL weight slabs, zone rates), dynamic fuel surcharge percentages, and co-loader vendor profit margins to auto-calculate final shipping costs during booking.  
+TXT
++ 1
+
+Xpression-Style Proforma & Commercial Invoice PDF Generator: The current layout needs an integrated Proforma Invoice PDF engine. This must render Xpression-formatted invoices directly from the booking screen, featuring tax breakdowns (GST/IGST), volumetric weight calculations, piece-by-piece box details, and sender/consignee address blocks.  
+TXT
++ 1
+
+Master Directory Auto-Fill: The booking form requires tight integration with Masters entities (Senders, Receivers, Vendors) to auto-complete sender/consignee data, tax IDs, and default service choices upon selection.  
+TXT
+
+Files to Create or Update
+
+1. Tracking & Workflow Components
+
+src/app/admin/logistics/tracking/matrix/page.tsx & src/components/admin/logistics/TrackingStageConfig.tsx: Dynamic tracking step builder for adding, editing, and ordering logistics stages.  
+TXT
+
+src/app/admin/food/orders/[orderId]/page.tsx & src/components/admin/food/FoodTrackingEditor.tsx: Stage editor for managing the 10-step food order timeline and delivery milestones.  
+TXT
+
+2. Carrier Rates & Co-Loader Management
+
+src/app/admin/logistics/rate-compare/page.tsx & src/components/admin/logistics/CarrierRateMatrix.tsx: Admin interface to manage rate sheets for carriers like DHL, FedEx, and third-party vendors.  
+TXT
+
+src/app/admin/masters/vendors/page.tsx: Vendor directory to maintain active co-loader credentials, API keys, and partner accounts.  
+TXT
+
+3. Booking & Proforma PDF Engine
+
+src/components/admin/logistics/AWBBookingForm.tsx: Update with Xpression layout parity, piece-weight calculator, dynamic carrier selection, and instant proforma triggers.  
+TXT
+
+src/app/admin/logistics/invoices/page.tsx: Invoice management dashboard for viewing, filtering, and bulk-downloading proforma and final tax invoices.  
+TXT
+
+src/lib/pdf/proformaGenerator.ts: PDF template logic responsible for rendering print-ready Xpression proforma and commercial invoices.  
+TXT
+
+check these we need these kinda things right so we need to update the things okay so only list the files need to add and need to update
+
+Files to Add
+
+src/lib/pdf/awbLabelGenerator.ts: PDF layout builder to render printable AWB shipping labels with barcodes, piece-level dimensions, charged weight, and POD blocks.  
+PDF
+
+src/lib/pdf/proformaInvoiceGenerator.ts: Commercial proforma invoice generator supporting shipper/consignee tax IDs, pre-carriage details, HS codes, and amount-in-words formatting.  
+PDF
+
+src/lib/utils/numberToWords.ts: Currency conversion utility to translate total invoice values into text representation (e.g., "INR Three Thousand Two Hundred Only").  
+PDF
+
+src/components/admin/logistics/HsCodeSelect.tsx: HS Code search and selector component for international customs documentation.  
+PDF
+
+src/components/admin/logistics/InvoiceItemTable.tsx: Dynamic form builder to enter item descriptions, shop names/addresses, HS codes, quantities, and rates during booking.  
+PDF
+
+src/app/api/admin/logistics/generate-pdf/route.ts: Server-side API handler for streaming generated AWB labels and Proforma PDF documents.  
+PDF
++ 1
+
+Files to Update
+
+src/components/admin/logistics/AWBBookingForm.tsx: Expand booking fields to collect itemized goods metadata, pre-carriage carriers (e.g., FedEx, DHL), store details, and dimensional calculations.  
+PDF
++ 1
+
+src/app/admin/logistics/booking/page.tsx: Integrate preview modals and instant print actions for AWB labels and Proforma invoices upon shipment creation.  
+PDF
++ 1
+
+src/app/admin/logistics/awb/[awb]/page.tsx: Include download buttons to retrieve generated AWB labels and Proforma invoices for existing bookings.  
+PDF
++ 1
+
+src/types/logistics.ts: Update logistics schema to include HS codes, line-item shop metadata, pre-carriage codes, sender tax ID fields, and dimensional box arrays.  
+PDF
++ 1
+
+with these updates can we get the complte our idea requirements check clearly with codes and our idea
+
+Yes, with these specific additions and schema updates, your application will fully cover every operational requirement, document layout, and workflow feature from the Xpression specification and sample documents.  
+PDF
++ 1
+
+Operational & Document Feature Matrix
+
+Feature Area	PDF Evidence	Implementation Target File
+Volumetric & Charged Weight Calculation	
+Dimensions (37*37*24*1=7), charged weight (11.00 Kgs), actual weight (11.000 Kgs)  
+PDF
+
+src/components/admin/logistics/AWBBookingForm.tsx
+Itemized Customs Items & Shop Details	
+HS Codes (e.g., 6109901009, 6203424011), store names, and addresses per item  
+PDF
+
+src/components/admin/logistics/InvoiceItemTable.tsx
+Pre-Carriage & Co-Loader Integration	
+FDX (FedEx) carrier tagging, CSB4 clearance indicator, SPX service type  
+PDF
++ 1
+
+src/app/admin/logistics/rate-compare/page.tsx
+Currency Text Conversion	
+"INR Three Thousand Two Hundred Only" formatted totals  
+PDF
+
+src/lib/utils/numberToWords.ts
+Shipper Documentation	
+Aadhaar / Tax ID registration and CIF delivery terms  
+PDF
+
+src/types/logistics.ts
+Dual PDF Rendering	
+Printable AWB label with barcode and commercial proforma invoice  
+PDF
++ 1
+
+src/lib/pdf/awbLabelGenerator.ts & proformaInvoiceGenerator.ts
+Core Data Structures Required
+
+To ensure full data parity across the booking engine, database models, and PDF generators, update src/types/logistics.ts with these fields:
+
+TypeScript
+// Line item structure matching commercial invoice details
+export interface InvoiceItem {
+  id: string;
+  itemNumber: number;
+  description: string;
+  shopName?: string;
+  shopAddress?: string;
+  hsCode: string;
+  quantity: number;
+  unitRate: number;
+  totalAmount: number;
+}
+
+// Dimensional box details for volumetric weight calculation
+export interface ParcelDimension {
+  lengthCm: number;
+  widthCm: number;
+  heightCm: number;
+  boxCount: number;
+  volumetricWeightKg: number; // Computed as (L * W * H * Count) / 5000
+}
+
+// Complete logistics booking record
+export interface AWBBookingRecord {
+  awbNumber: string;
+  hubCode: string; // e.g., WH439
+  bookingDate: string;
+  
+  // Shipper details
+  shipperName: string;
+  shipperAddress: string;
+  shipperPhone: string;
+  shipperTaxId?: string; // Aadhaar / Tax ID string (redacted in UI)
+  
+  // Consignee details
+  consigneeName: string;
+  consigneeAddress: string;
+  consigneeCity: string;
+  consigneeState: string;
+  consigneeCountry: string;
+  consigneePincode: string;
+  consigneePhone: string;
+  
+  // Carrier & service config
+  serviceType: string; // e.g., SPX, International Priority
+  preCarriageBy: string; // e.g., FDX, DHL, Aramex
+  clearanceType: string; // e.g., CSB4
+  
+  // Package metrics
+  totalPieces: number;
+  actualWeightKg: number;
+  chargedWeightKg: number;
+  dimensions: ParcelDimension[];
+  
+  // Customs & financial
+  declaredValueInr: number;
+  items: InvoiceItem[];
+  termOfDelivery: string; // e.g., CIF
+  countryOfOrigin: string;
+  countryOfDestination: string;
+}
+Complete End-to-End Execution Flow
+
+Booking & Auto-Populate (AWBBookingForm.tsx): Select a sender/receiver from Masters to populate address and tax credentials. Enter box dimensions to auto-calculate charged weight vs actual weight.  
+TXT
++ 2
+
+Itemization & Customs (InvoiceItemTable.tsx): Enter items, select HS codes from dropdowns, and record store names/addresses per item. The form automatically calculates totals and generates the amount-in-words string.  
+PDF
++ 1
+
+Carrier & Rates Engine (CarrierRateMatrix.tsx): Select co-loader services (FedEx, DHL, Aramex) with dynamic fuel surcharges auto-applied.  
+TXT
++ 1
+
+PDF Output Engine (/api/admin/logistics/generate-pdf): Produces two official documents upon booking confirmation:
+
+AWB Label: Printable label with barcode, proof-of-delivery signature box, and piece weight breakdown.  
+PDF
+
+Proforma Invoice: Complete commercial export invoice with pre-carriage routing, itemized table, and system signature blocks.  
+PDF
+
+Tracking Stage Control (TrackingStageConfig.tsx): Admin updates milestone states (BOOKED, IN_TRANSIT, OUT_FOR_DELIVERY), reflecting immediately on public tracking pages.  
+TXT
