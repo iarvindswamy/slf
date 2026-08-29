@@ -26,10 +26,13 @@ import {
   requiredString,
 } from "@/utils/validators";
 
-import {
-  TRACKING_STATUSES,
-  type TrackingStatus,
-} from "@/types/logistics";
+// import {
+//   TRACKING_STATUSES,
+//   type TrackingStatus,
+// } from "@/types/logistics";
+
+
+import { TRACKING_STATUSES } from "@/types/tracking";
 
 type TrackingUpdateBody = {
   awb?: string;
