@@ -1,8 +1,0 @@
-{
-  "/page": "app/page.js",
-  "/(public)/logistics/page": "app/(public)/logistics/page.js",
-  "/(public)/food/page": "app/(public)/food/page.js",
-  "/(public)/logistics/pickup-request/page": "app/(public)/logistics/pickup-request/page.js",
-  "/(public)/logistics/cargo-freight/page": "app/(public)/logistics/cargo-freight/page.js",
-  "/(public)/logistics/book-freight/page": "app/(public)/logistics/book-freight/page.js"
-}
